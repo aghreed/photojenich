@@ -1,33 +1,56 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
+import React from 'react';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
-import Bio from '../components/Bio'
+import Header from '../components/header';
+import Footer from '../components/footer';
+import Hero from '../components/hero';
+import ProjectOverview from '../components/project/project.overview';
+
+import AstraiaImage from '../images/astraia.png';
+import TheWaitImage from '../images/the_wait.png';
+import OlympicsImage from '../images/olympics.png';
+import ConnectImage from '../images/connect.png';
+import AllergiesImage from '../images/allergies.png';
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
-
     return (
       <div>
-        <Helmet title={siteTitle} />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3>
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
+        <Helmet title="Photojenich" />
+        <Hero />
+        <Header />
+        <ProjectOverview
+          title="Astraia"
+          vertical="Research & Ideation"
+          text="Project managment application for the court, streamlining processes and communication."
+          image={AstraiaImage}
+        />
+        <ProjectOverview
+          title="The Wait"
+          vertical="Experience Design"
+          text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
+          image={TheWaitImage}
+        />
+        <ProjectOverview
+          title="Olympics"
+          vertical="Speculative Case Study"
+          text="Speculative case study of the safety and security surrounding the 2028 Los Angeles Olympics."
+          image={OlympicsImage}
+        />
+        <ProjectOverview
+          title="Connect"
+          vertical="Prototyping Experiment"
+          text="Taking phones out of hands practicing the act of talking and listening."
+          image={ConnectImage}
+        />
+        <ProjectOverview
+          title="Allergies"
+          vertical="Capstone Project"
+          text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
+          image={AllergiesImage}
+        />
+        <Footer />
       </div>
     )
   }

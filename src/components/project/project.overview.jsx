@@ -1,19 +1,18 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
-import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import Link from 'gatsby-link';
 
 import './_project.overview.scss';
 
 const ProjectOverview = ({
-  goofy,
+  goofy, // need to do something with this
   title,
   vertical,
   text,
   image
 }) => (
   <section id={title.replace(' ', '_')}>
-    <div className={classNames('project-overview-container', { goofy })}>
+    <div className="project-overview-container">
       <div className="image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="vertical">
         <div>{vertical}</div>

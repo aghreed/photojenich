@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
-    author: "Kyle Mathews",
+    title: "Photojenich",
+    designer: "Whitney Jenich",
+    author: "aghreed",
   },
   plugins: [
     {
@@ -43,5 +44,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
 }
