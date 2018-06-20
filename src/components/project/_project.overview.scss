@@ -1,0 +1,72 @@
+.project-overview-container {
+  display: flex;
+  margin: 3em;
+  height: 100%;
+  justify-content: center;
+
+  &.goofy {
+    flex-direction: row-reverse;
+
+    .image {
+      left: 9%;
+      right: auto;
+    }
+
+    .vertical {
+      right: 11em;
+    }
+
+    .title {
+      left: .45em;
+    }
+
+    .line {
+      transform: translate(3.5em, 15em) rotate(-45deg);
+    }
+
+    .text {
+      text-align: right;
+      left: 2em;
+    }
+  }
+
+  .image {
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    right: 9%;
+  }
+
+  .vertical {
+    position: relative;
+    right: 24em;
+    top: -10em;
+    transform: rotate(90deg);
+  }
+
+  .title {
+    font-size: 100px;
+    z-index: 1;
+    position: relative;
+    top: 1.75em;
+  }
+
+  .line {
+    width: 1px;
+    height: 75px;
+    background: #000;
+    transform: translate(-1.5em, 15em) rotate(45deg);
+  }
+
+  .text {
+    font-size: 14px;
+    width: 180px;
+    position: relative;
+    top: 27em;
+    left: 1em;
+  }
+}
