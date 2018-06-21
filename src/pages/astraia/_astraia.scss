@@ -56,7 +56,7 @@ $astraia-purple: #8338EC;
   }
 
   .in-brief-section {
-    min-height: 55vh;
+    height: 55vh;
 
     .in-brief-container {
       margin: 6em 8em;
@@ -89,7 +89,7 @@ $astraia-purple: #8338EC;
   }
 
   .court-system-section {
-    min-height: 150vh;
+    height: 150vh;
 
     .court-system-title {
       text-align: center;
@@ -139,7 +139,7 @@ $astraia-purple: #8338EC;
     .streamline-text {
       h2 {
         text-align: center;
-        line-height: 1.25em;
+        line-height: 1em;
         font-size: 36px;
         color: $astraia-purple;
       }
@@ -147,7 +147,7 @@ $astraia-purple: #8338EC;
   }
 
   .hangry-section {
-    min-height: 80vh;
+    height: 75vh;
 
     .article-container {
       margin: 4em 8em;
@@ -160,6 +160,11 @@ $astraia-purple: #8338EC;
       h3 {
         margin-top: 4em;
         margin-bottom: 1em;
+      }
+
+      .text {
+        line-height: 29px;
+        font-size: 18px;
       }
     }
   }
@@ -192,7 +197,7 @@ $astraia-purple: #8338EC;
   }
 
   .ideation-section {
-    min-height: 85vh;
+    height: 85vh;
 
     .ideation-container {
       position: relative;
@@ -211,6 +216,7 @@ $astraia-purple: #8338EC;
           margin-top: 1em;
           max-width: 25vw;
           font-size: 18px;
+          line-height: 29px;
         }
       }
 
@@ -253,6 +259,89 @@ $astraia-purple: #8338EC;
           font-size: 18px;
           text-align: center;
         }
+      }
+    }
+  }
+
+  .drawing-board-section {
+    height: 30vh;
+
+    .article-container {
+      margin: 4em 8em;
+
+      .text {
+        line-height: 29px;
+      }
+    }
+  }
+
+  .insights-container {
+    position: relative;
+    height: 500px;
+
+    .insights-description {
+      position: relative;
+      left: 50vw;
+      margin: 4em 0 4em 8em;
+
+      .insights-title {
+        padding-top: 1em;
+        font-size: 28px;
+      }
+
+      .insights-bullet-list {
+        margin-top: 1em;
+        max-width: 26vw;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+
+    .insights-image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 55vw;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
+    }
+  }
+
+  .paperprototype-section {
+    height: 85vh;
+
+    .paperprototype-container {
+      position: relative;
+      height: 500px;
+
+      .paperprototype-description {
+        position: relative;
+        margin: 4em 0 4em 8em;
+
+        .paperprototype-title {
+          padding-top: 2.5em;
+          font-size: 28px;
+        }
+
+        .paperprototype-text {
+          margin-top: 1em;
+          max-width: 25vw;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+
+      .paperprototype-image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 55vw;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
       }
     }
   }

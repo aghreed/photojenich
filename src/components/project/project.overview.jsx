@@ -15,12 +15,10 @@ const ProjectOverview = ({
     <div className="project-overview-container">
       <div className="image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="vertical">
-        <div>{vertical}</div>
+        <div><Link to={`/${title.replace(' ', '_').toLowerCase()}`}>{vertical}</Link></div>
       </div>
       <h1 className="title">
-        <Link to={`/${title.replace(' ', '_').toLowerCase()}`}>
           {title}
-        </Link>
       </h1>
       <div className="line"></div>
       <div className="text">{text}</div>

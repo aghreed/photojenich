@@ -133,7 +133,7 @@ const AstraiaPage = () => (
         </div>
       </div>
       </section>
-      <section>
+      <section className="drawing-board-section">
         <div className="article-container">
           <div className="center">
             <h4>Back to the Drawing Board</h4>
@@ -142,29 +142,38 @@ const AstraiaPage = () => (
             </p>
           </div>
         </div>
+      </section>
+      <section className="insights-section">
         <div className="insights-container">
-          <div className="insights-image" style={{backgroundImage: `url({AstraiaWireframingImage})`}}></div>
+          <div className="insights-image" style={{backgroundImage: `url(${AstraiaWireframingImage})`}}></div>
           <div className="insights-description">
-            <h4>Insights from Primary Research</h4>
+            <h4 className="insights-title">Insights from Primary Research</h4>
+            <div className="insights-bullet-list">
             <p className="text">
             / Task management is essential to unloading the burden of information off the judges and clerks for better efficiency
-
+            </p>
+            <p className="text">
             / Judges and clerks are not on the same page
-
+            </p>
+            <p className="text">
             / Courts are trying to digitize their systems, but it’s taking a while and often their systems are clunky, expensive, and difficult to use
-
+            </p>
+            <p className="text">
             / Clerks and Judges are juggling a lot, leading to time being wasted and them having to frequently acquaint themselves with the facts pertinent to the cases at hand.
             </p>
+            </div>
           </div>
         </div>
+      </section>
+      <section className="paperprototype-section">
         <div className="paperprototype-container">
           <div className="paperprototype-description">
-            <h4>Paper Prototyping</h4>
-            <p className="text">
+            <h4 className="paperprototype-title">Paper Prototyping</h4>
+            <p className="paperprototype-text">
               Paper prototyping was essential to us understanding what needed to go into our task magment system. We conducted user testing with law librarians, lawyers and clerks to understand what day-to-day tasks look like. From these sessions we were able to extract findings as to where and when the failure happened in the analog systems they use presently, and designed to aid in those specific flows.
             </p>
           </div>
-          <div className="paperprototype-image" style={{backgroundImage: `url({AstraiaPaperPrototypingImage})`}}></div>
+          <div className="paperprototype-image" style={{backgroundImage: `url(${AstraiaPaperPrototypingImage})`}}></div>
         </div>
       </section>
       <section className="segway">
