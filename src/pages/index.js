@@ -16,7 +16,9 @@ class BlogIndex extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title="Photojenich" />
+        <Helmet title="Photojenich">
+          <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
+        </Helmet>
         <Hero />
         <Header />
         <ProjectOverview
