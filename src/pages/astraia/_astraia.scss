@@ -77,6 +77,7 @@ $astraia-purple: #8338EC;
       .text {
         margin-top: 1em;
         font-size: 22px;
+        line-height: 32px;
       }
     }
   }
@@ -191,6 +192,7 @@ $astraia-purple: #8338EC;
 
         .text {
           font-size: 18px;
+          line-height: 29px;
         }
       }
     }
@@ -257,6 +259,7 @@ $astraia-purple: #8338EC;
 
         .text {
           font-size: 18px;
+          line-height: 29px;
           text-align: center;
         }
       }
@@ -269,43 +272,52 @@ $astraia-purple: #8338EC;
     .article-container {
       margin: 4em 8em;
 
+      h4 {
+        font-size: 28px;
+      }
+
       .text {
+        font-size: 18px;
         line-height: 29px;
       }
     }
   }
 
-  .insights-container {
-    position: relative;
-    height: 500px;
+  .insights-section {
+    height: 80vh;
 
-    .insights-description {
+    .insights-container {
       position: relative;
-      left: 50vw;
-      margin: 4em 0 4em 8em;
+      height: 500px;
 
-      .insights-title {
-        padding-top: 1em;
-        font-size: 28px;
+      .insights-description {
+        position: relative;
+        left: 50vw;
+        margin: 4em 0 4em 8em;
+
+        .insights-title {
+          padding-top: 1em;
+          font-size: 28px;
+        }
+
+        .insights-bullet-list {
+          margin-top: 1em;
+          max-width: 31vw;
+          font-size: 18px;
+          line-height: 29px;
+        }
       }
 
-      .insights-bullet-list {
-        margin-top: 1em;
-        max-width: 26vw;
-        font-size: 18px;
-        line-height: 29px;
+      .insights-image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 55vw;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
       }
-    }
-
-    .insights-image {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 55vw;
-      background-repeat: no-repeat;
-      background-position: left;
-      background-size: cover;
     }
   }
 
@@ -342,6 +354,98 @@ $astraia-purple: #8338EC;
         background-repeat: no-repeat;
         background-position: right;
         background-size: cover;
+      }
+    }
+  }
+
+  .finding-container {
+    padding-top: 2em;
+    text-align: center;
+
+    .finding-title {
+      font-size: 26px;
+    }
+
+    .finding-quote {
+      font-size: 36px;
+      max-width: 664px;
+      margin: 0 auto;
+      color: $astraia-purple;
+      font-weight: bold;
+    }
+  }
+
+  .flow-section {
+    height: auto;
+
+    .flow-container {
+      margin: 4em 8em;
+
+      .flow-image {
+        height: 609px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .flow-description {
+        margin-top: 6em;
+
+        .flow-title {
+          font-size: 24px;
+        }
+
+        .flow-text {
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+
+  .reflections-section {
+
+    .purple-spacer-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      .purple-spacer {
+        width: 150px;
+        height: 7px;
+        background: $astraia-purple;
+      }
+    }
+
+    .reflections-container {
+      margin: 6em 8em 4em;
+
+      .reflections-title {
+        margin-top: 4em;
+        font-size: 36px;
+        color: $astraia-purple;
+        font-weight: bold;
+      }
+
+      .horizontal-line {
+        display: inline-block;
+        width: 45px;
+        height: 1px;
+        margin-left: 1em;
+        margin-bottom: 0.3em;
+        background: #979797;
+      }
+
+      .article-container {
+        .title {
+          margin-top: 3em;
+          font-size: 24px;
+        }
+
+        .text {
+          font-size: 18px;
+          line-height: 29px;
+        }
       }
     }
   }

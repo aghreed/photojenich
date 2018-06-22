@@ -177,6 +177,122 @@ const AstraiaPage = () => (
         </div>
       </section>
       <section className="segway">
+        <div className="finding-container">
+          <h4 className="finding-title">Finding One</h4>
+          <div className="finding-quote">
+          “It’s hard to manage and remember all that’s happening with cases”
+          </div>
+        </div>
+      </section>
+      <section className="flow-section one">
+        <div className="flow-container">
+          <div className="flow-image" style={{backgroundImage: `url(${FlowOneImage})`}}></div>
+          <div className="flow-description">
+            <h4 className="flow-title">Flow One: Adding a Case</h4>
+            <div className="flow-text">
+            <p>
+            Court clerks can work be working on upwards of 10 cases at a time and judges are working with multiple different court clerks all working on different cases. Both stakeholders are juggling multiple new cases as well as those that have been going on for years. This complex system of organizing and remembering multiple different cases, all at different parts of a trial, leads to forgetfulness and confusion between judges and court clerks. Which means valuable moments are being wasted, searching through files, remembering what the case is about, and figuring out where each case is on the timeline of a trial.
+            </p>
+            <p>
+            We made it easy and accessible for court clerks to add a case to Astraia. They can add references, tasks, notes, attach lawyers to the case and also give the ability to Judges to assign new cases to clerks of their choice.
+            </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="segway">
+        <div className="finding-container">
+          <h4 className="finding-title">Finding Two</h4>
+          <div className="finding-quote" style={{ maxWidth: '943px'}}>
+          “It’s such a great way to communicate with my staff without having to send memos and paper back and forth while creating a really good trail so things don’t fall through the cracks.”
+          </div>
+        </div>
+      </section>
+      <section className="flow-section two">
+        <div className="flow-container">
+          <div className="flow-image" style={{backgroundImage: `url(${FlowTwoImage})`}}></div>
+          <div className="flow-description">
+            <h4 className="flow-title">Flow Two: Adding a Task</h4>
+            <div className="flow-text">
+            <p>
+            Creating a case is only part of the system of seamless communication and cutting down on wasted minutes. Some courts have already realized their need for checklist-like technology and have asked their IT departments to make custom checklist systems for them. The above quote is from Janet T. Neff, U.S. Western Michigan District Judge, explaining what a checklist helps her court accomplish. Out taks system allows tasks to be assigned to different stakeholders, prioritized, given due dates and added to specific cases so important information doesn’t fall through the cracks.
+            </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="segway">
+        <div className="finding-container">
+          <h4 className="finding-title">Finding Three</h4>
+          <div className="finding-quote">
+          “Keeping track of references is essential because the use of reference databases are so expensive.”
+          </div>
+        </div>
+      </section>
+      <section className="flow-section three">
+        <div className="flow-container">
+          <div className="flow-image" style={{backgroundImage: `url(${FlowThreeImage})`}}></div>
+          <div className="flow-description">
+            <h4 className="flow-title">Flow Three: Adding a Reference to a Case</h4>
+            <div className="flow-text">
+            <p>
+            Interviewing a law clerk gave us insight into into their daily lives. Duties of a law clerk include researching cases and statutes, organizing that research into legal documents and then using those documents to write drafts with the corresponding judge. Learning that so much of their day involves researching on databases like LexisNexis and Westlaw, meant that it was imperative we gave law clerks the ability to add these references to cases and checklists. Searching on reference databases is one of the highest costs of the law and court system. By adding the ability to add a reference to a case, we assure that these references don’t get swept up in other trials, filings and memos, saving money for all parties involved.
+            </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="segway">
+        <div className="finding-container">
+          <h4 className="finding-title">Finding Four</h4>
+          <div className="finding-quote">
+          “Not everyone is on the same page, meetings get changed or cancelled and people aren’t notified.”
+          </div>
+        </div>
+      </section>
+      <section className="flow-section four">
+        <div className="flow-container">
+          <div className="flow-image" style={{backgroundImage: `url(${FlowFourImage})`}}></div>
+          <div className="flow-description">
+            <h4 className="flow-title">Flow Four: Adding an Event to the Calendar</h4>
+            <div className="flow-text">
+            <p>
+            Communication was a common pain point that we frequently heard about in our primary research phase. One clerk told us that meetings often get changed, but not all parties are notified, meaning people showed up to wrong rooms, on different days or not at all. This confusion is yet another stressor within an already environment, adding to the decision fatigue judges and clerks already face during their long and tedious days.
+            </p>
+            <p>
+            Astraia gives clerks and judges the ability to add events to their calendar, notify stakeholders within the system of the event and also send invites to lawyers or other parties not within the system through the integration of email platforms like Microsoft Outlook. By having the calendar integrated into Astraia, judges and clerks can be reminded of what tasks need to be done before a meeting, be easily reminded what the case is corresponding to the specific meeting and update all parties involved seamlessly when something is changed.
+            </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="reflections-section">
+        <div className="purple-spacer-container">
+          <div className="purple-spacer"></div>
+        </div>
+        <div className="reflections-container">
+          <span className="reflections-title">Reflections</span>
+          <span className="horizontal-line"></span>
+          <div className="article-container">
+            <h4 className="title">Future Steps</h4>
+            <p className="text">
+            There are barriers and obstacles when it comes to getting technology to be accepted in the court systems, and we we would address that by going to court coordinators and telling them about the benefit of our software, since they are the managers of their respective courts.
+            </p>
+            <p className="text">
+            We would also push for this to become responsive for tablets and phones, as well as automate case filings into the system so efficiency is maximized and manual input would no longer be required. The integration of LexisNexis, the premier reference database for lawyers and clerks would be an essential add to Astraia’s reference widget as well.
+            </p>
+            <p className="text">
+            Finally, we would add new roles to the system, for the court coordinator to oversee everything and help simplify their management tasks. Our goal would be to make a more robust communication application for the municipal courts.
+            </p>
+            <h4 className="title">Reflections</h4>
+            <p className="text">
+            My team and I set off in a very broad and intimidating challenge space and were able to find our way and create something we were proud of. Ideally, I wish we would have realized we were trying to tackle both a wicked problem, and a policy problem (implicit bias and decision fatigue) right away so we could have invested more time in interviewing and doing field study observations of court and law clerks. We were able to easily pivot when we realized we were looking in the wrong area, however, and made up for lost time.
+            </p>
+            <p className="text">
+            I personally loved this project space. I am interested in complex sociotechnical systems and how responsible design can help us incrementally change and respond to the historical problems we face in our society. This challenge space pushed me out of my comfort zone and forced me to understand how the sub system of the municipal court works within the larger judicial system of the United States.
+            </p>
+          </div>
+        </div>
       </section>
     </div>
 );

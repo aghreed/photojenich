@@ -4,6 +4,7 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
+  return true;
   const { createPage } = boundActionCreators
 
   return new Promise((resolve, reject) => {
