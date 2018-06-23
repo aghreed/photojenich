@@ -45,23 +45,25 @@ const AstraiaPage = () => (
          <div className="astraia-nbg-image" style={{backgroundImage: `url(${AstraiaNBGImage})`}}></div>
       </section>
       <section className="court-system-section">
-        <h4 className="court-system-title">How The Court System works</h4>
-        <div className="article-container">
-          <div className="left">
-            <p>
-            Within a court system, a case is filed with a Court Coordinator who gives the information to the Court Clerk who is in charge of the scheduling, filing and assigning cases to specific Judges. When the judge receives a case, he assigns one of his law clerks to the case. Law clerks can manage anywhere from 1-10 cases at a time. Their tasks for a case include researching cases and statutes, organizing research into legal documents, and writing rulings with their respective judges.
-            </p>
+        <div className="court-system-container">
+          <h4 className="court-system-title">How The Court System works</h4>
+          <div className="article-container">
+            <div className="left">
+              <p>
+              Within a court system, a case is filed with a Court Coordinator who gives the information to the Court Clerk who is in charge of the scheduling, filing and assigning cases to specific Judges. When the judge receives a case, he assigns one of his law clerks to the case. Law clerks can manage anywhere from 1-10 cases at a time. Their tasks for a case include researching cases and statutes, organizing research into legal documents, and writing rulings with their respective judges.
+              </p>
+            </div>
+            <div className="right">
+              <p>
+              Oftentimes, court clerks don’t work for just one judge; they work for multiple at a time. Meaning you have one court clerk who manages the schedules and assignment of multiple judges, and those judges have multiple different law clerks under their jurisdiction each working upwards of 10 cases at a time.
+              </p>
+              <p>
+              But the complexity doesn’t stop there, law clerks can work with multiple different cases, creating a stressful and difficult to maintain system of memo’s, archaic filing systems, and paperwork.
+              </p>
+            </div>
           </div>
-          <div className="right">
-            <p>
-            Oftentimes, court clerks don’t work for just one judge; they work for multiple at a time. Meaning you have one court clerk who manages the schedules and assignment of multiple judges, and those judges have multiple different law clerks under their jurisdiction each working upwards of 10 cases at a time.
-            </p>
-            <p>
-            But the complexity doesn’t stop there, law clerks can work with multiple different cases, creating a stressful and difficult to maintain system of memo’s, archaic filing systems, and paperwork.
-            </p>
-          </div>
+          <div className="court-system-image" style={{backgroundImage: `url(${SystemMapImage})`}}></div>
         </div>
-        <div className="court-system-image" style={{backgroundImage: `url(${SystemMapImage})`}}></div>
       </section>
       <section className="segway">
         <div className="streamline-container">
@@ -134,8 +136,8 @@ const AstraiaPage = () => (
       </div>
       </section>
       <section className="drawing-board-section">
-        <div className="article-container">
-          <div className="center">
+        <div className="drawing-board-container">
+          <div className="article-container">
             <h4>Back to the Drawing Board</h4>
             <p className="text">
               We conducted continuous secondary research and decided the only way we would get the valuable information we needed would be through primary research. We talked to judges, lawyers, court clerks, and law clerks. After learning all of this new information and synthesizing our insights, our final design solution seemed clear and we bagan paper prototyping different types of project management and checklist applications to test with users.

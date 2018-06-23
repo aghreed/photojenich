@@ -56,7 +56,7 @@ $astraia-purple: #8338EC;
   }
 
   .in-brief-section {
-    height: 55vh;
+    height: auto;
 
     .in-brief-container {
       margin: 6em 8em;
@@ -90,29 +90,32 @@ $astraia-purple: #8338EC;
   }
 
   .court-system-section {
-    height: 150vh;
+    height: auto;
 
-    .court-system-title {
-      text-align: center;
-      margin-top: 4em;
-    }
+    .court-system-container {
+      margin: 4em 8em;
 
-    .article-container {
-      display: flex;
-      justify-content: space-between;
-      margin: 2em 8em;
-      font-size: 18px;
-
-      .right, .left {
-        padding: 1em;
+      .court-system-title {
+        text-align: center;
+        margin-top: 4em;
       }
-    }
 
-    .court-system-image {
-      height: 366px;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-top: 2em;
+      .article-container {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+
+        .right, .left {
+          padding: 1em;
+        }
+      }
+
+      .court-system-image {
+        height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2em;
+      }
     }
   }
 
@@ -148,7 +151,7 @@ $astraia-purple: #8338EC;
   }
 
   .hangry-section {
-    height: 75vh;
+    height: auto;
 
     .article-container {
       margin: 4em 8em;
@@ -199,10 +202,11 @@ $astraia-purple: #8338EC;
   }
 
   .ideation-section {
-    height: 85vh;
+    height: auto;
 
     .ideation-container {
       position: relative;
+      margin: 4em 0;
       height: 500px;
 
       .ideation-description {
@@ -267,20 +271,27 @@ $astraia-purple: #8338EC;
   }
 
   .drawing-board-section {
-    height: 30vh;
+    height: auto;
 
-    .article-container {
+    .drawing-board-container {
       margin: 4em 8em;
 
-      h4 {
-        font-size: 28px;
-      }
+      .article-container {
+        margin: 0 auto;
+        max-width: 686px;
 
-      .text {
-        font-size: 18px;
-        line-height: 29px;
+        h4 {
+          font-size: 28px;
+        }
+
+        .text {
+          font-size: 18px;
+          line-height: 29px;
+        }
       }
     }
+
+
   }
 
   .insights-section {
