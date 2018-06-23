@@ -7,8 +7,11 @@
   text-align: center;
   justify-content: center;
 
-  h1 {
+  h1.hero-title {
     margin: 5em;
+    font-family: "Tara";
+    font-size: 42px;
+    font-weight: bold;
   }
 
   .scrolldown-container {

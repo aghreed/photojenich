@@ -12,7 +12,7 @@ const ProjectOverview = ({
   image
 }) => (
   <section id={title.replace(' ', '_')}>
-    <div className="project-overview-container">
+    <div className={`project-overview-container ${goofy ? 'goofy' : ''}`}>
       <div className="image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="vertical">
         <div><Link to={`/${title.replace(' ', '_').toLowerCase()}`}>{vertical}</Link></div>

@@ -5,7 +5,7 @@ import './_hero.scss';
 const Hero = () =>
   (<section>
     <div className="hero-container">
-      <h1>
+      <h1 className="hero-title">
         Hi, I’m Whitney. A humanist, designer, and researcher driven by resiliency.
       </h1>
       <div className="scrolldown-container">

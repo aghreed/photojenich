@@ -28,28 +28,30 @@ class BlogIndex extends React.Component {
           image={AstraiaImage}
         />
         <ProjectOverview
+          goofy
           title="The Wait"
           vertical="Experience Design"
           text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
           image={TheWaitImage}
         />
         <ProjectOverview
-          title="Olympics"
-          vertical="Speculative Case Study"
-          text="Speculative case study of the safety and security surrounding the 2028 Los Angeles Olympics."
-          image={OlympicsImage}
+          title="Allergies"
+          vertical="Capstone Project"
+          text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
+          image={AllergiesImage}
         />
         <ProjectOverview
+          goofy
           title="Connect"
           vertical="Prototyping Experiment"
           text="Taking phones out of hands practicing the act of talking and listening."
           image={ConnectImage}
         />
         <ProjectOverview
-          title="Allergies"
-          vertical="Capstone Project"
-          text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
-          image={AllergiesImage}
+          title="Olympics"
+          vertical="Speculative Case Study"
+          text="Speculative case study of the safety and security surrounding the 2028 Los Angeles Olympics."
+          image={OlympicsImage}
         />
         <Footer />
       </div>

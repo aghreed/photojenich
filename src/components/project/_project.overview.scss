@@ -17,7 +17,8 @@
     }
 
     .title {
-      left: .45em;
+      position: relative;
+      left: 2.5vw;
     }
 
     .line {
@@ -26,7 +27,7 @@
 
     .text {
       text-align: right;
-      left: 2em;
+      left: -1em;
     }
   }
 
@@ -52,6 +53,7 @@
     font-size: 100px;
     z-index: 1;
     padding-top: 100px;
+    font-family: "Tara";
   }
 
   .line {
@@ -62,10 +64,12 @@
   }
 
   .text {
-    font-size: 14px;
+    font-size: 18px;
     width: 180px;
+    max-height: 300px;
     position: relative;
-    top: 27em;
+    top: 50vh;
     left: 1em;
+    line-height: 29px;
   }
 }
