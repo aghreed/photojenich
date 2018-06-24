@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../../components/header';
+import ProjectDetailHero from '../../components/project/project.detail.hero';
+import ProjectDetailBrief from '../../components/project/project.detail.brief';
 
 import './_astraia.scss';
 
@@ -14,33 +16,25 @@ import FlowTwoImage from '../../images/flow_two_desktop.png';
 import FlowThreeImage from '../../images/flow_three_desktop.png';
 import FlowFourImage from '../../images/flow_four_desktop.png';
 
+const AstraiaPurple = '#8338EC';
+
 const AstraiaPage = () => (
     <div className="astraia-page-container">
       <Header />
-      <section className="project-section">
-        <div className="project-container">
-          <div className="project-image" style={{backgroundImage: `url(${AstraiaBigImage})`}}></div>
-          <h1 className="project-title">Astraia</h1>
-          <div className="project-description"><span>Duration: 10 Weeks</span> <span style={{ marginLeft: '0.5em'}}>Role: designer & researcher</span></div>
-          <div className="scrolldown">
-            <div className="scrolldown-text">Scroll Down</div>
-            <div className="scrolldown-line"></div>
-          </div>
-        </div>
-      </section>
-      <section className="in-brief-section">
-        <div className="in-brief-container">
-          <span className="title">In Brief</span>
-          <span className="horizontal-line"></span>
-          <p className="text">
-          The judicial system in America is one of the slowest movers towards the integration of technology.
-          Having the weight of someone's future in your hands is arduous. We aimed to alleviate the burden
-           of day-to-day tasks on judges and clerks in the municipal court system to help keep focus
-           directed towards the important things. Astraia is a task and schedule management application
-           for clerks and judges.
-           </p>
-        </div>
-      </section>
+      <ProjectDetailHero
+        image={AstraiaBigImage}
+        title="Astraia"
+        duration="10 Weeks"
+        role="designer & researcher"
+        projectColor={AstraiaPurple}
+      />
+      <ProjectDetailBrief
+        text="The judicial system in America is one of the slowest movers towards the integration of technology.
+                  Having the weight of someone's future in your hands is arduous. We aimed to alleviate the burden
+                   of day-to-day tasks on judges and clerks in the municipal court system to help keep focus
+                   directed towards the important things. Astraia is a task and schedule management application
+                   for clerks and judges."
+      />
       <section className="segway">
          <div className="astraia-nbg-image" style={{backgroundImage: `url(${AstraiaNBGImage})`}}></div>
       </section>

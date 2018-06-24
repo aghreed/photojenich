@@ -1,0 +1,26 @@
+.in-brief-section {
+  height: auto;
+
+  .in-brief-container {
+    margin: 6em 8em;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .horizontal-line {
+      display: inline-block;
+      width: 45px;
+      height: 1px;
+      margin-left: 1em;
+      margin-bottom: 0.3em;
+      background: #979797;
+    }
+
+    .text {
+      margin-top: 1em;
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+}
