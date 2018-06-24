@@ -5,6 +5,7 @@ import ProjectDetailBrief from "../../components/project/project.detail.brief";
 import SegwayQuote from "../../components/project/project.detail.segway.quote";
 import SegwayBulletList from "../../components/project/project.detail.segway.bullet.list";
 import SingleTitledParagraph from "../../components/project/project.detail.single.titled.paragraph";
+import UISpecs from "../../components/project/project.detail.ui.specs";
 
 import "./_the_wait.scss";
 
@@ -309,6 +310,10 @@ const TheWaitPage = () => (
     <SingleTitledParagraph
       title="Ensuring Privacy"
       text="Other features, like a two-step authentification process through the patient themselves ensures privacy and security for the application and the patient."
+    />
+    <UISpecs
+      projectKey="the_wait"
+      projectColor={`${TheWaitColor}`}
     />
     <section className="reflections-section">
       <div className="spacer-container">

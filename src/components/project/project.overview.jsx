@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
-import Link from 'gatsby-link';
+import { navigateTo } from 'gatsby-link';
 
 import './_project.overview.scss';
 
@@ -12,10 +12,10 @@ const ProjectOverview = ({
   image
 }) => (
   <section id={title.replace(' ', '_')}>
-    <div className={`project-overview-container ${goofy ? 'goofy' : ''}`}>
+    <div className={`project-overview-container ${goofy ? 'goofy' : ''}`} onClick={ () => navigateTo(`/${title.replace(' ', '_').toLowerCase()}`)}>
       <div className="image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="vertical">
-        <div><Link to={`/${title.replace(' ', '_').toLowerCase()}`}>{vertical}</Link></div>
+        <div>{vertical}</div>
       </div>
       <h1 className="title">
           {title}

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/header';
 import ProjectDetailHero from '../../components/project/project.detail.hero';
 import ProjectDetailBrief from '../../components/project/project.detail.brief';
+import UISpecs from "../../components/project/project.detail.ui.specs";
 
 import './_astraia.scss';
 
@@ -111,23 +112,23 @@ const AstraiaPage = () => (
         </div>
       </section>
       <section className="segway">
-      <div className="did-not-know-container">
-        <h4 className="did-not-know-title">We Didn't Know Enough</h4>
-        <div className="bullet-list-container">
-          <div className="item">
-            <div className="bar"></div>
-            <div className="text">Our ideas were often not feasible, desirable or viable for a court system to implement in 1-3 years.</div>
-          </div>
-          <div className="item">
-            <div className="bar"></div>
-            <div className="text">We were straddling the line between design and policy.</div>
-          </div>
-          <div className="item">
-            <div className="bar"></div>
-            <div className="text">We were working within a vast and complex sociotechnical system and we needed more information.</div>
+        <div className="did-not-know-container">
+          <h4 className="did-not-know-title">We Didn't Know Enough</h4>
+          <div className="bullet-list-container">
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Our ideas were often not feasible, desirable or viable for a court system to implement in 1-3 years.</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">We were straddling the line between design and policy.</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">We were working within a vast and complex sociotechnical system and we needed more information.</div>
+            </div>
           </div>
         </div>
-      </div>
       </section>
       <section className="drawing-board-section">
         <div className="drawing-board-container">
@@ -262,6 +263,10 @@ const AstraiaPage = () => (
           </div>
         </div>
       </section>
+      <UISpecs
+        projectKey="astraia"
+        projectColor={AstraiaPurple}
+      />
       <section className="reflections-section">
         <div className="purple-spacer-container">
           <div className="purple-spacer"></div>

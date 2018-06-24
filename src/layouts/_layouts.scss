@@ -21,3 +21,12 @@ h4 {
   font-weight: 500;
   font-size: 28px;
 }
+
+a {
+  color: #9B9B9B;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
