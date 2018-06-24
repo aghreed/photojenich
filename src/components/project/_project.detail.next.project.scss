@@ -1,0 +1,17 @@
+.next-project-container {
+  display: flex;
+  justify-content: center;
+  margin: 8em 0;
+
+  .next-project {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

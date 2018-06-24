@@ -3,6 +3,7 @@ import Header from '../../components/header';
 import ProjectDetailHero from '../../components/project/project.detail.hero';
 import ProjectDetailBrief from '../../components/project/project.detail.brief';
 import UISpecs from "../../components/project/project.detail.ui.specs";
+import NextProject from "../../components/project/project.detail.next.project";
 
 import './_astraia.scss';
 
@@ -297,6 +298,9 @@ const AstraiaPage = ({
           </div>
         </div>
       </section>
+      <NextProject
+        projectKey="the_wait"
+      />
     </div>
 );
 

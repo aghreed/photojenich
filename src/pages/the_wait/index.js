@@ -6,6 +6,7 @@ import SegwayQuote from "../../components/project/project.detail.segway.quote";
 import SegwayBulletList from "../../components/project/project.detail.segway.bullet.list";
 import SingleTitledParagraph from "../../components/project/project.detail.single.titled.paragraph";
 import UISpecs from "../../components/project/project.detail.ui.specs";
+import NextProject from "../../components/project/project.detail.next.project";
 
 import "./_the_wait.scss";
 
@@ -339,6 +340,9 @@ const TheWaitPage = ({
         </div>
       </div>
     </section>
+    <NextProject
+      projectKey="astraia"
+    />
   </div>
 );
 
