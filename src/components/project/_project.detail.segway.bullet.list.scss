@@ -1,0 +1,26 @@
+.project-detail-bullet-list-container {
+  padding-top: 2em;
+
+  .bullet-list-title {
+    text-align: center;
+  }
+
+  .bullet-list-container {
+    display: flex;
+    margin: 1em 8em;
+
+    .item {
+      max-width: 325px;
+      margin: 1em 2em;
+
+      .title {
+        font-size: 36px;
+      }
+
+      .text {
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+  }
+}

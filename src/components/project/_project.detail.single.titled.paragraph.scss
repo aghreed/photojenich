@@ -1,0 +1,21 @@
+.single-titled-paragraph-section {
+  height: auto;
+
+  .single-titled-paragraph-container {
+    margin: 4em 8em;
+
+    .article-container {
+      margin: 0 auto;
+      max-width: 686px;
+
+      h4 {
+        font-size: 28px;
+      }
+
+      .text {
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+  }
+}
