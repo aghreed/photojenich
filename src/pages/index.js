@@ -34,7 +34,7 @@ class BlogIndex extends React.Component {
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
         <Hero />
-        <Header />
+        <Header location={this.props.location} />
         <ProjectOverview
           title="Astraia"
           vertical="Research & Ideation"

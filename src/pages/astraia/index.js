@@ -19,9 +19,11 @@ import FlowFourImage from '../../images/flow_four_desktop.png';
 
 const AstraiaPurple = '#8338EC';
 
-const AstraiaPage = () => (
+const AstraiaPage = ({
+  location
+}) => (
     <div className="astraia-page-container">
-      <Header />
+      <Header location={location} />
       <ProjectDetailHero
         image={AstraiaBigImage}
         title="Astraia"

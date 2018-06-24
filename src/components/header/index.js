@@ -3,7 +3,9 @@ import Link from "gatsby-link";
 
 import './_header.scss';
 
-const Header = () =>
+const Header = ({
+  location
+}) =>
   (<header className="header">
     <div className="header-content">
       <div>
@@ -13,7 +15,13 @@ const Header = () =>
         <Link to="/">Home</Link>
       }
       </div>
-      <div><Link to="/about">About</Link></div>
+      <div>
+      {
+        location.pathname === '/about' ?
+        <Link to="/astraia">Work</Link> :
+        <Link to="/about">About</Link>
+      }
+      </div>
     </div>
   </header>);
 

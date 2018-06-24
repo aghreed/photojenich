@@ -29,9 +29,11 @@ import TheWaitDoubleAuth from "../../images/wait_doubleauth.png";
 const TheWaitColor = '#43A0FF';
 const TheWaitBackgroundColor = '#F2F8FF';
 
-const TheWaitPage = () => (
+const TheWaitPage = ({
+  location
+}) => (
   <div className="the-wait-container">
-    <Header />
+    <Header location={location}/>
     <ProjectDetailHero
       image={TheWaitBig}
       title="The Wait"

@@ -2,9 +2,11 @@ import React from "react";
 import Header from "../../components/header";
 import SingleTitledParagraph from "../../components/project/project.detail.single.titled.paragraph";
 
-const AboutPage = () => (
+const AboutPage = ({
+  location
+}) => (
   <div className="about-container">
-    <Header />
+    <Header location={location} />
     <section>
       <SingleTitledParagraph
         title="Hi, I'm Whitney"
