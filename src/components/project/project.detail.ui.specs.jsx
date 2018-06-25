@@ -13,7 +13,7 @@ const UISpecs = ({
   <div className="ui-specs-container">
     <div className="ui-specs"
       style={{ color: `${projectColor}`, border: `1px solid ${projectColor}`}}
-      onClick={ () => window.open(`docs/${projectKey}_uispec.pdf`, "_blank")}
+      onClick={ () => window.open(`/docs/${projectKey}_uispec.pdf`, "_blank")}
     >
       <div className="ui-specs-text">
         View UI Spec Here
