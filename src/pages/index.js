@@ -13,12 +13,6 @@ import ConnectImage from '../images/connect.png';
 import AllergiesImage from '../images/allergies/allergies.png';
 
 // <ProjectOverview
-//   title="Allergies"
-//   vertical="Capstone Project"
-//   text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
-//   image={AllergiesImage}
-// />
-// <ProjectOverview
 //   goofy
 //   title="Connect"
 //   vertical="Prototyping Experiment"
@@ -47,6 +41,12 @@ class BlogIndex extends React.Component {
           vertical="Experience Design"
           text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
           image={TheWaitImage}
+        />
+        <ProjectOverview
+          title="Allergies"
+          vertical="Capstone Project"
+          text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
+          image={AllergiesImage}
         />
         <Footer />
       </div>

@@ -3,13 +3,14 @@ import React from "react";
 import "./_project.detail.paragraph.image.scss";
 
 const ParagraphImage = ({
+  goofy,
   image,
   title,
   text,
   text2
 }) => (
   <section className="paragraph-image-section">
-    <div className="paragraph-image-container">
+    <div className={`paragraph-image-container ${goofy ? 'goofy' : ''}`}>
       <div className="description">
         <h4 className="title">{title}</h4>
         <p className="text">
