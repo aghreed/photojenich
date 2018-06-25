@@ -6,11 +6,11 @@ import Footer from '../components/footer';
 import Hero from '../components/hero';
 import ProjectOverview from '../components/project/project.overview';
 
-import AstraiaImage from '../images/astraia.png';
-import TheWaitImage from '../images/the_wait.png';
+import AstraiaImage from '../images/astraia/astraia.png';
+import TheWaitImage from '../images/the_wait/the_wait.png';
 import OlympicsImage from '../images/olympics.png';
 import ConnectImage from '../images/connect.png';
-import AllergiesImage from '../images/allergies.png';
+import AllergiesImage from '../images/allergies/allergies.png';
 
 // <ProjectOverview
 //   title="Allergies"

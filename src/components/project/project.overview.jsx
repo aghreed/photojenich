@@ -5,14 +5,17 @@ import { navigateTo } from 'gatsby-link';
 import './_project.overview.scss';
 
 const ProjectOverview = ({
-  goofy, // need to do something with this
+  goofy,
   title,
   vertical,
   text,
   image
 }) => (
   <section id={title.replace(' ', '_')}>
-    <div className={`project-overview-container ${goofy ? 'goofy' : ''}`} onClick={ () => navigateTo(`/${title.replace(' ', '_').toLowerCase()}`)}>
+    <div
+      className={`project-overview-container ${goofy ? 'goofy' : ''}`}
+      onClick={ () => navigateTo(`/${title.replace(' ', '_').toLowerCase()}`)}
+    >
       <div className="image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="vertical">
         <div>{vertical}</div>

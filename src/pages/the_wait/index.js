@@ -10,22 +10,22 @@ import NextProject from "../../components/project/project.detail.next.project";
 
 import "./_the_wait.scss";
 
-import TheWaitBig from "../../images/wait_big.png";
-import TheWaitWaitingRoom1 from "../../images/wait_waitingroom1.png";
-import TheWaitWaitingRoom2 from "../../images/wait_waitingroom2.png";
-import Timeline from "../../images/timeline_INFX.png";
-import TheWaitInterview from "../../images/wait_interview.png";
-import TheWaitIdeation from "../../images/wait_ideation.png";
-import TheWaitExperiencePrototype from "../../images/wait_experienceprototype.png";
-import JourneyMap from "../../images/journey_map.png";
-import ThreeWidePhotos from "../../images/wait_three_wide.png";
-import TheWaitWelcomePacket from "../../images/wait_welcomepacket.png";
-import TheWaitHomepod from "../../images/wait_homepod.png";
-import TheWaitInformPic from "../../images/wait_Inform_pic.png";
-import TheWaitPopups from "../../images/wait_popups.png";
-import TheWaitInform from "../../images/wait_inform.png";
-import TheWaitEase from "../../images/wait_ease.png";
-import TheWaitDoubleAuth from "../../images/wait_doubleauth.png";
+import TheWaitBig from "../../images/the_wait/wait_big.png";
+import TheWaitWaitingRoom1 from "../../images/the_wait/wait_waitingroom1.png";
+import TheWaitWaitingRoom2 from "../../images/the_wait/wait_waitingroom2.png";
+import Timeline from "../../images/the_wait/timeline_INFX.png";
+import TheWaitInterview from "../../images/the_wait/wait_interview.png";
+import TheWaitIdeation from "../../images/the_wait/wait_ideation.png";
+import TheWaitExperiencePrototype from "../../images/the_wait/wait_experienceprototype.png";
+import JourneyMap from "../../images/the_wait/journey_map.png";
+import ThreeWidePhotos from "../../images/the_wait/wait_three_wide.png";
+import TheWaitWelcomePacket from "../../images/the_wait/wait_welcomepacket.png";
+import TheWaitHomepod from "../../images/the_wait/wait_homepod.png";
+import TheWaitInformPic from "../../images/the_wait/wait_Inform_pic.png";
+import TheWaitPopups from "../../images/the_wait/wait_popups.png";
+import TheWaitInform from "../../images/the_wait/wait_inform.png";
+import TheWaitEase from "../../images/the_wait/wait_ease.png";
+import TheWaitDoubleAuth from "../../images/the_wait/wait_doubleauth.png";
 
 const TheWaitColor = '#43A0FF';
 const TheWaitBackgroundColor = '#F2F8FF';

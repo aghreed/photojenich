@@ -7,16 +7,16 @@ import NextProject from "../../components/project/project.detail.next.project";
 
 import './_astraia.scss';
 
-import AstraiaBigImage from '../../images/astraia_big.png';
-import AstraiaNBGImage from '../../images/astraia_nbg.png';
-import SystemMapImage from '../../images/system_map.png';
-import AstraiaIdeationImage from '../../images/astraia_ideation.png';
-import AstraiaPaperPrototypingImage from '../../images/astraia_paperprototyping.png';
-import AstraiaWireframingImage from '../../images/astraia_wireframing.png';
-import FlowOneImage from '../../images/flow_one_desktop.png';
-import FlowTwoImage from '../../images/flow_two_desktop.png';
-import FlowThreeImage from '../../images/flow_three_desktop.png';
-import FlowFourImage from '../../images/flow_four_desktop.png';
+import AstraiaBigImage from '../../images/astraia/astraia_big.png';
+import AstraiaNBGImage from '../../images/astraia/astraia_nbg.png';
+import SystemMapImage from '../../images/astraia/system_map.png';
+import AstraiaIdeationImage from '../../images/astraia/astraia_ideation.png';
+import AstraiaPaperPrototypingImage from '../../images/astraia/astraia_paperprototyping.png';
+import AstraiaWireframingImage from '../../images/astraia/astraia_wireframing.png';
+import FlowOneImage from '../../images/astraia/flow_one_desktop.png';
+import FlowTwoImage from '../../images/astraia/flow_two_desktop.png';
+import FlowThreeImage from '../../images/astraia/flow_three_desktop.png';
+import FlowFourImage from '../../images/astraia/flow_four_desktop.png';
 
 const AstraiaPurple = '#8338EC';
 
