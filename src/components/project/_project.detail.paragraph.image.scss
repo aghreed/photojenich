@@ -1,0 +1,37 @@
+.paragraph-image-section {
+  height: auto;
+
+  .paragraph-image-container {
+    position: relative;
+    margin: 4em 0;
+    height: 500px;
+
+    .description {
+      position: relative;
+      margin: 4em 0 4em 8em;
+
+      .title {
+        padding-top: 2.5em;
+        font-size: 28px;
+      }
+
+      .text {
+        margin-top: 1em;
+        max-width: 25vw;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+
+    .image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 55vw;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+    }
+  }
+}
