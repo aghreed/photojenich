@@ -28,6 +28,7 @@ $astraia-purple: #8338EC;
         display: flex;
         justify-content: space-between;
         font-size: 18px;
+        line-height: 29px;
 
         .right, .left {
           padding: 1em;
@@ -44,31 +45,38 @@ $astraia-purple: #8338EC;
   }
 
   .streamline-container {
-    position: relative;
-    padding: 6em 11.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+//     padding: 6em 11.5em;
 
-    .diagonal-line {
-      position: absolute;
-      width: 84px;
-      height: 1px;
-      transform: rotate(-45deg);
-      background: #000;
-
-      &.high {
-        right: 42vw;
-        top: 12vh;
-      }
-
-      &.low {
-        left: 36vw;
-      }
-    }
+    // .diagonal-line {
+    //   position: absolute;
+    //   width: 84px;
+    //   height: 1px;
+    //   transform: rotate(-45deg);
+    //   background: #000;
+    //
+    //   &.high {
+    //     right: 42vw;
+    //     top: 12vh;
+    //   }
+    //
+    //   &.low {
+    //     left: 36vw;
+    //   }
+    // }
 
     .streamline-text {
+      max-width: 868px;
+      margin: 0 auto;
+
       h2 {
         text-align: center;
-        line-height: 1em;
+        line-height: 50px;
         font-size: 36px;
+        margin: .5em;
         color: $astraia-purple;
       }
     }
@@ -98,7 +106,8 @@ $astraia-purple: #8338EC;
   }
 
   .early-assumptions-container {
-    padding-top: 2em;
+    padding-top: 1em;
+    margin: 1em 8em;
 
     .early-assumptions-title {
       text-align: center;
@@ -106,7 +115,9 @@ $astraia-purple: #8338EC;
 
     .bullet-list-container {
       display: flex;
-      margin: 1em 8em;
+      max-width: 960px;
+      margin: 0 auto;
+      justify-content: center;
 
       .item {
         max-width: 325px;
@@ -164,7 +175,7 @@ $astraia-purple: #8338EC;
   }
 
   .did-not-know-container {
-    padding-top: 2em;
+    padding-top: 1em;
 
     .did-not-know-title {
       text-align: center;
@@ -172,7 +183,9 @@ $astraia-purple: #8338EC;
 
     .bullet-list-container {
       display: flex;
-      margin: 1em 8em;
+      margin: 0 auto;
+      justify-content: center;
+      max-width: 960px;
 
       .item {
         max-width: 226px;
@@ -338,7 +351,7 @@ $astraia-purple: #8338EC;
 
   .reflections-section {
     height: auto;
-    
+
     .purple-spacer-container {
       position: relative;
       display: flex;

@@ -65,11 +65,11 @@ const AstraiaPage = ({
       </section>
       <section className="segway">
         <div className="streamline-container">
-          <div className="diagonal-line high"></div>
+          {/*<div className="diagonal-line high"></div>*/}
           <div className="streamline-text">
             <h2>We aimed to streamline these processes to help prioritize the level of care and time spent on each case.</h2>
           </div>
-          <div className="diagonal-line low"></div>
+          {/*<div className="diagonal-line low"></div>*/}
         </div>
       </section>
       <section className="hangry-section">
