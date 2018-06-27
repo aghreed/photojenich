@@ -118,7 +118,9 @@ $the-wait-blue: #43A0FF;
 
     .bullet-list-container {
       display: flex;
-      margin: 1em 8em;
+      max-width: 960px;
+      margin: 0 auto;
+      justify-content: center;
 
       .item {
         max-width: 226px;
@@ -275,11 +277,14 @@ $the-wait-blue: #43A0FF;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+        margin: 0 auto;
       }
 
       .three-wide-photos-description {
         display: flex;
         justify-content: space-around;
+        max-width: 1102px;
+        margin: 0 auto;
 
         .item {
           text-align: left;
@@ -375,7 +380,7 @@ $the-wait-blue: #43A0FF;
     height: auto;
 
     .staying-in-the-loop-container {
-      margin: 8em;
+      margin: 4em;
 
       .staying-in-the-loop-image {
         margin: 0 auto;

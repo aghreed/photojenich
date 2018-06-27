@@ -1,5 +1,5 @@
 .project-detail-bullet-list-container {
-  padding-top: 2em;
+  padding-top: 1em;
 
   .bullet-list-title {
     text-align: center;
@@ -7,7 +7,9 @@
 
   .bullet-list-container {
     display: flex;
-    margin: 1em 8em;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
 
     .item {
       max-width: 325px;

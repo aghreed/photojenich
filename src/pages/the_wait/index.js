@@ -244,7 +244,7 @@ const TheWaitPage = ({
       </div>
     </section>
     <section className="staying-in-the-loop-section">
-      <div className="staying-in-the-loop-container">
+      <div className="staying-in-the-loop-container" style={{ marginTop: '8em'}}>
         <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitPopups})`}}></div>
       </div>
     </section>
@@ -262,7 +262,7 @@ const TheWaitPage = ({
       text="Care will help first time waiters, as well as those who have been in a similar situation before to feel more informed by being able to read up on the surgery itself, as well as the visit details right in the palm of their hand."
     />
     <section className="staying-in-the-loop-section">
-      <div className="staying-in-the-loop-container">
+      <div className="staying-in-the-loop-container" style={{ marginTop: '8em'}}>
         <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitEase})`}}></div>
       </div>
     </section>
