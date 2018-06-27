@@ -23,7 +23,7 @@ import AllergiesImage from '../images/allergies/allergies.png';
 class BlogIndex extends React.Component {
   render() {
     return (
-      <div>
+      <div className="tk-nimbus-sans">
         <Helmet title="Photojenich">
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>

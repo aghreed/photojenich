@@ -74,11 +74,11 @@ const AstraiaPage = ({
       </section>
       <section className="hangry-section">
         <div className="article-container">
-          <h3>Hangry Judges and Unfair Sentences</h3>
+          <h4>Hangry Judges and Unfair Sentences</h4>
           <p className="text">
             Our initial interest in the Court system was piqued by a <a href="https://www.wired.com/2011/04/judges-mental-fatigue/" target="_blank">study</a> done in 2009 with 1,000 trial judges. This study stated that Prisoners were 65% more likely to receive parole in the morning. In contrast, prisoners that were seen right before lunch were less that 10% likely to get parole. That statistic bounced back to 65% after lunch and breaks throughout the day. Judges were hangry and we wanted to fix it.
           </p>
-          <h3>Secondary Research</h3>
+          <h4>Secondary Research</h4>
           <p className="text">
             Through secondary research we focused on three different areas; Social Justice, Municipal Courts and Judges. Our findings from our research brought us to make certain assumptions based on what we found.
           </p>
