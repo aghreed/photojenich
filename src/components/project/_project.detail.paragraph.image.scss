@@ -1,6 +1,6 @@
 .paragraph-image-section {
   height: auto;
-  // TODO: make goofy the normal way, and the normal way goofy
+
   .paragraph-image-container {
     position: relative;
     margin: 4em 0;
@@ -8,8 +8,8 @@
 
     &.goofy {
       .description {
-        margin: 4em 0 4em 8em;
         left: -3vw;
+        margin: 4em 0 4em 8em;
       }
 
       .image {
@@ -21,6 +21,7 @@
 
     .description {
       position: relative;
+      left: 50vw;
       margin: 4em 0 4em 8em;
 
       .title {
@@ -40,7 +41,7 @@
       position: absolute;
       top: 0;
       bottom: 0;
-      right: 0;
+      left: 0;
       width: 55vw;
       background-repeat: no-repeat;
       background-position: right;

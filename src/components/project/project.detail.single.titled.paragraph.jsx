@@ -4,7 +4,8 @@ import "./_project.detail.single.titled.paragraph.scss";
 
 const SingleTitledParagraph = ({
   title,
-  text
+  text,
+  text2
 }) => (
   <section className="single-titled-paragraph-section">
     <div className="single-titled-paragraph-container">
@@ -13,6 +14,12 @@ const SingleTitledParagraph = ({
         <p className="text">
           {text}
         </p>
+        {
+          text2 &&
+          <p className="text">
+            {text}
+          </p>
+        }
       </div>
     </div>
   </section>

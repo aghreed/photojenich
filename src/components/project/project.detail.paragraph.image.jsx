@@ -11,6 +11,10 @@ const ParagraphImage = ({
 }) => (
   <section className="paragraph-image-section">
     <div className={`paragraph-image-container ${goofy ? 'goofy' : ''}`}>
+      {
+        !goofy &&
+        <div className="image" style={{backgroundImage: `url(${image})`}}></div>
+      }
       <div className="description">
         <h4 className="title">{title}</h4>
         <p className="text">
@@ -23,7 +27,10 @@ const ParagraphImage = ({
           </p>
         }
       </div>
-      <div className="image" style={{backgroundImage: `url(${image})`}}></div>
+      {
+        goofy &&
+        <div className="image" style={{backgroundImage: `url(${image})`}}></div>
+      }
     </div>
   </section>
 );

@@ -6,6 +6,7 @@ import SingleTitledParagraph from "../../components/project/project.detail.singl
 import BulletListImage from "../../components/project/project.detail.bullet.list.image";
 import ParagraphImage from "../../components/project/project.detail.paragraph.image";
 import SegwayQuote from "../../components/project/project.detail.segway.quote";
+import SegwayBulletList from "../../components/project/project.detail.segway.bullet.list";
 
 import "./_allergies.scss";
 
@@ -19,6 +20,10 @@ import AllergiesPersonalityGraph from "../../images/allergies/allergies_personal
 import AllergiesRelationshipCircle from "../../images/allergies/allergies_relationshipcircle.png";
 import AllergiesSemiStructured from "../../images/allergies/allergies_semistructured.png";
 import AllergiesSynthesis from "../../images/allergies/allergies_synthesis.png";
+import Lisa from "../../images/allergies/lisa.png";
+import Stephen from "../../images/allergies/stephen.png";
+import Geetu from "../../images/allergies/geetu.png";
+import Devra from "../../images/allergies/devra_shiba.png";
 
 const AllergiesGreen = '#03C193';
 const AllergiesBackgroundColor = '#EDEDED';
@@ -69,6 +74,89 @@ const AllergiesPage = ({
     <SingleTitledParagraph
       title="Expert Interviews"
       text="To build off of our foundational knowledge built in the secondary research phase, we sought out four experts in a range of fields to shed light on medical, community, and business levels.  We conducted semi-structured interviews with two allergists, a senior manager of nutrition services of a major commercial catering company, Sodexo, and the founder and leader of the online community “No Nuts Moms.”"
+    />
+    <section className="testimonials-section">
+      <div className="testimonials-container">
+        <div className="testimonials-row">
+          <div className="testimonial">
+            <div className="image" style={{ backgroundImage: `url(${Lisa})`}}></div>
+            <div className="testimony">
+              “With the increase in food allergies, communities online and in-person have become invaluable for parents seeking advice when doctors aren’t available.”
+            </div>
+            <div className="testimony-attribution">
+             — Lisa Rutter, founder of No Nuts Moms
+            </div>
+          </div>
+          <div className="testimonial">
+            <div className="image" style={{ backgroundImage: `url(${Stephen})`}}></div>
+            <div className="testimony" style={{ position: 'relative', top: '-18px' }}>
+            “Despite the increase in the prevalence of allergies, death from allergies are rare, but that doesn’t stop the hysteria from manifesting.”
+            </div>
+            <div className="testimony-attribution">
+             — Dr. Stephen Tilles, Allergist
+            </div>
+          </div>
+        </div>
+        <div className="testimonials-row">
+          <div className="testimonial">
+            <div className="image" style={{ backgroundImage: `url(${Geetu})`}}></div>
+            <div className="testimony">
+            “The biggest pain points for families dealing with food allergies are inconsistent school policies, difficulty in reading food labels, and traveling.”
+            </div>
+            <div className="testimony-attribution">
+             — Dr. Geetu Deogun, Pediatric Allergist
+            </div>
+          </div>
+          <div className="testimonial">
+            <div className="image" style={{ backgroundImage: `url(${Devra})`}}></div>
+            <div className="testimony">
+            “Communication is key when dealing with parent’s of children with food allergies, especially when you are in charge of their food.”
+            </div>
+            <div className="testimony-attribution">
+             — Devra Shiba, Senior Nutrition Manager, Sodexo
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <SingleTitledParagraph
+      title="Recruiting Parents and Children"
+      text="In order to get answers to our two research questions we recruited in parent/child dyads. We looked for children ages 9-12 with a range of severity in reactions as well as type of food allergens. We recruited in dyads to gain trust, and see the deep and rich interpersonal relationships parents and their children have. Since we believe the parent/child partnership is essential to managing preteen’s food allergies, we wanted to hear their stories about what it is like managing and dealing with a food allergy."
+    />
+    <section className="allergies-chart-section">
+      <div className="allergies-chart-container">
+        <h4 className="allergies-chart-title">Participant Allergen Breakdown</h4>
+        <div className="allergies-chart-image" style={{ backgroundImage: `url(${AllergiesChart})`}}></div>
+      </div>
+    </section>
+    <ParagraphImage
+      image={AllergiesDiaryStudy}
+      title="Diary Study"
+      text="To get a rich, contextual look into both parent and preteen’s day-to-day lives, we had out of town participants participate in a Diary Study. We asked them to write down any instance in which they thought of the food allergy during the day for one full week, and how it made them feel. At the end of the week, they sent back their separate diaries. We followed up with one 30-minute phone interview with both parent and child to dig deeper into entries that we found particularly interesting."
+    />
+    <SingleTitledParagraph
+      title="Lessons Learned"
+      text="Our diary was a big learning experience for our team. We had the most difficulty retaining participants for this exercise and learned about the delicate balance of relaying enough information to the participants that made them interested in helping, but not enough for them to feel overwhelmed by what we were asking them to do."
+      text2="We also learned the importance of the design of the diary itself. Our original design consisted of three blank boxes on each page, with one page for each day. We quickly realized that when we presented them with this design, our participants started to see the diary as more of a food diary and just listed what they were eating. We added more context to our description prompts and added an extra box to each page to help disassociate the diary with only food related experiences."
+    />
+    <ParagraphImage
+      goofy
+      image={AllergiesSemiStructured}
+      title="Semi Structured Interviews"
+      text="We conducted nine 45-75 minute semi-structured interviews. When available, we did it within their homes, to gain rapport more easily and get a better idea of how they organize their lives around food allergies, like their kitchen design."
+    />
+    <ParagraphImage
+      image={AllergiesRelationshipCircle}
+      title="Relationship Circle"
+      text="Once rapport was built, we asked our participants to engage in our Relationship Circle Exercise to better understand their relationship with their community. We asked preteens to place “face cards” in corresponding rings around the middle circle, which represented themselves. We observed and asked them to think aloud. We then asked if their rings would change in relation to their food allergy. If it did, we asked why, and noted if it did not. We found surprisingly that most children made only slight, to no changes."
+    />
+    <SegwayBulletList
+      title="Finding Insights and Opportunities"
+      itemOne="Externalize data from interviews into digestable models and frameworks."
+      itemTwo="Create Insights from these models and themes formed."
+      itemThree="From our insights, find rich and enlightened opportunity areas for us to explore with our solution."
+      projectColor={AllergiesGreen}
+      projectBackgroundColor={"#EDEDED"}
     />
   </div>
 );

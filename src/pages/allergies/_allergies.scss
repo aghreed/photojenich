@@ -1,0 +1,73 @@
+$allergies-green: #28C8A1;
+
+.allergies-container {
+  .testimonials-section {
+    height: auto;
+    background: #F0EEEE;
+
+    .testimonials-container {
+      padding: 1em 0;
+
+      .testimonials-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 4em;
+
+        .testimonial {
+          display: flex;
+          flex-direction: column;
+          max-width: 359px;
+          height: 352px;
+          justify-content: space-between;
+          align-items: center;
+
+          .image {
+            margin: 0 auto;
+            height: 130px;
+            width: 110px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+          }
+
+          .testimony {
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+          }
+
+          .testimony-attribution {
+            color: $allergies-green;
+            font-size: 14px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  .allergies-chart-section {
+    height: auto;
+    
+    .allergies-chart-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 6em 0 2em;
+
+      .allegies-chart-title {
+        margin-bottom: 0;
+      }
+
+      .allergies-chart-image {
+        height: 452px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
