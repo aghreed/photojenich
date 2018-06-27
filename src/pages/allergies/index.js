@@ -7,6 +7,10 @@ import BulletListImage from "../../components/project/project.detail.bullet.list
 import ParagraphImage from "../../components/project/project.detail.paragraph.image";
 import SegwayQuote from "../../components/project/project.detail.segway.quote";
 import SegwayBulletList from "../../components/project/project.detail.segway.bullet.list";
+import SegwayHero from "../../components/project/project.detail.segway.hero";
+import InsightParagraph from "../../components/project/project.detail.insight.paragraph";
+import UISpecs from "../../components/project/project.detail.ui.specs";
+import NextProject from "../../components/project/project.detail.next.project";
 
 import "./_allergies.scss";
 
@@ -27,6 +31,8 @@ import Devra from "../../images/allergies/devra_shiba.png";
 
 const AllergiesGreen = '#03C193';
 const AllergiesBackgroundColor = '#EDEDED';
+const AllergiesHeroTitleColor = '#077F62';
+const AllergiesHeroColor = '#09D3A2';
 
 const AllergiesPage = ({
   location
@@ -156,7 +162,174 @@ const AllergiesPage = ({
       itemTwo="Create Insights from these models and themes formed."
       itemThree="From our insights, find rich and enlightened opportunity areas for us to explore with our solution."
       projectColor={AllergiesGreen}
-      projectBackgroundColor={"#EDEDED"}
+      projectBackgroundColor={AllergiesBackgroundColor}
+    />
+    <ParagraphImage
+      goofy
+      image={AllergiesPersonalityGraph}
+      title="Synthesis Models"
+      text="To help us get a better grasp on our overwhelming amount of data, we each created our own synthesis models related to information we found enlightening during the interview process. On the right is a graph that took all 12 of our preteen participants, the severity of their allergy, frequency of reactions, and their attitude towards their allergies into account to help us see if there were patterns. We ended up seeing that children with more mild allergies have more reactions, but engage in riskier eating and live more worry free."
+    />
+    <ParagraphImage
+      image={AllergiesSynthesis}
+      title="Synthesizing"
+      text="We externalized all of our hard data from our interviews onto sticky notes, then placed them into different categories. Once in categories, we started looking deeper, finding four larger themes; trust awareness, isolation, and fear, in which our final 12 insights encapsulated and stemmed from."
+    />
+    <SegwayHero
+      title="Theme One"
+      heroText="Trust"
+      heroTitleColor={AllergiesHeroTitleColor}
+      backgroundColor={AllergiesGreen}
+      heroColor={AllergiesHeroColor}
+    />
+    <InsightParagraph
+      title="Insight One, Trust"
+      forward="Trust between the parent and teacher is reliant on the teacher’s proven understanding of how to deal with food allergies."
+      text="Because the nature of food at school is vast, encompassing lunchtime, class parties, sharing of snacks between peers, and more, the risk of allergy attacks increases. Unforeseen circumstances that may occur in this relatively uncontrolled environment causes parents to worry. If parents set up preventative measures with teachers at the start of the school year, and teachers prove their loyalty and understanding over time, only then can reassurance take form."
+    />
+    <InsightParagraph
+      title="Insight Two, Trust"
+      forward="Trust in the school system is compromised when regulations surrounding allergy education are inconsistent."
+      text="National guidelines exist around food allergies in school systems, however, every school district differs from one another even in the same state. We found that most schools did have some set guidelines in place, but they were not necessarily being followed by school staff, students, nor those students’ parents. These inconsistencies proved frustrating for parents, as they believed their child to be in a safe space, only to be reminded by one-off incidents that protocols were not being enforced."
+    />
+    <InsightParagraph
+      title="Insight Three, Trust"
+      forward="Parental trust is dependent on their child’s ability to take control of their environment."
+      text="Parents’ fear is derived from a distrust in a child’s ability to be emotionally responsible for their food decisions. As heard from the parents we talked to, some children know they can’t have something yet still choose to consume it. This behavior causes parents to remain fearful of their child’s food intake, and the feeling can only be relieved once the child proves their understanding of the severity of their food condition."
+    />
+    <SegwayHero
+      title="Theme Two"
+      heroText="Isolation"
+      heroTitleColor={AllergiesHeroTitleColor}
+      backgroundColor={AllergiesGreen}
+      heroColor={AllergiesHeroColor}
+    />
+    <InsightParagraph
+      title="Insight Four, Isolation"
+      forward="Children feel isolated with their food allergy because their natural curiosity to try new things is severely restricted, relative to their social circle."
+      text="When it comes to a child’s social circle, at the preteen age of 9-12, many interactions are based on experiencing things with their peers together for the first time. Whether it be trying new foods, playing new games, or watching a new movie, there is a natural curiosity in children to absorb new experiences and discuss them with their peers. When that part of their life is so limited such as the case with food allergies, is when children feel most isolated."
+    />
+    <InsightParagraph
+      title="Insight Five, Isolation"
+      forward="Because food is a central aspect for social activity, there is a cultural stigma when one cannot participate."
+      text="In so many different cultures, and especially in America, the breaking of bread is a core part of social interactions. It’s often the norm to center social gatherings around food and in some cases second nature to offer a share of one’s food in the presence of others. Because the nature of food is a communal contribution or personal offering, it is considered rude to decline and creates a cultural stigma around that parent/child."
+    />
+    <InsightParagraph
+      title="Insight Six, Isolation"
+      forward="Parents feel their child is isolated when others do not consider the higher threshold of needs."
+      text="Parents of children with food allergies want their kids to be treated with the same level of attention and care as their peers. It is especially difficult for parents to hear that their child was excluded from activities in the classroom or social setting."
+    />
+    <InsightParagraph
+      title="Insight Seven, Isolation"
+      forward="The isolating nature of food allergies is the foundation of a tight knit community."
+      text="Communities such as Facebook groups or child friend groups are often formed on the basis of isolation. There is a mutual understanding in these communities that other people ‘just don’t get it like we do’ and a frustration that their needs are not cared for. The life and death nature of food allergies creates a mutual discussion point that parents often feel go under-appreciated and disregarded."
+    />
+    <SegwayHero
+      title="Theme Three"
+      heroText="Awareness"
+      heroTitleColor={AllergiesHeroTitleColor}
+      backgroundColor={AllergiesGreen}
+      heroColor={AllergiesHeroColor}
+    />
+    <InsightParagraph
+      title="Insight Eight, Awareness"
+      forward="The high variability in food allergies causes society to be jaded by the word ‘allergy’."
+      text="Because of the varying degrees of severity, and the rise in both food sensitivities and food allergies, society finds it hard to define allergies as a real problem. With the diagnostic tests that are used now, experts can’t even define severity. These limitations cause people outside the allergen community, who understand even less than the people within the community, to think of the word “allergy” as a catch-all for food issues. This, mixed with the varying degree of allergic reactions, makes the outside community view allergies as mild disruption and even an inconvenience in their lives."
+    />
+    <InsightParagraph
+      title="Insight Nine, Awareness"
+      forward="Parental trust is dependent on their child’s ability to take control of their environment."
+      text="Both doctors and parents agree that unknown environmental triggers are the cause of many food allergies in western culture. Studies like the Israeli Peanut Study and the Hygiene Theory reiterate these sentiments."
+      text2="We also found this same thread of truth within our own data when talking with the dyads. P2, who has a soy and fruit allergy that causes skin reactions, went to Taiwan for a summer and saw changes in his skin while there. Once he came back to the United States, his problems came back. P1 is a child who struggles with the new allergy EoE. His parents said “kids are the canaries in the coalmine,” meaning they are sirens telling us we are doing something wrong with our food creation and consumption."
+    />
+    <SegwayHero
+      title="Theme Four"
+      heroText="Fear"
+      heroTitleColor={AllergiesHeroTitleColor}
+      backgroundColor={AllergiesGreen}
+      heroColor={AllergiesHeroColor}
+    />
+    <InsightParagraph
+      title="Insight Ten, Fear"
+      forward="Heightened anxiety stems from the trauma experienced during a past allergic reaction."
+      text="It is a scary moment for families when their child goes through an allergic reaction. Allergic reactions could range from minor hives to difficulty breathing. These traumatic experiences leave an enduring feeling that remains with families for a long period of time. Parents can only do so much when it comes to preparing and keeping their loved ones from an allergic reaction. The loss of control and unpredictability of their child experiencing a reaction drives fear."
+    />
+    <InsightParagraph
+      title="Insight Eleven, Fear"
+      forward="Parents assume the worst about their child’s condition due to limitations and ambiguities of diagnostic testing."
+      text="Once children are diagnosed with food allergies, parents tend to latch on to the idea of the food allergy being worse than it really is. These diagnostic testing methods are unreliable and lack reassurance that the treatment will do more good than harm."
+      text2="Food allergy testing is not black and white, as they are time consuming and can be falsely positive. The anxiety of these food allergies often adds an emotional toll, as some children who are tested negative for some foods, still have a reaction. So they avoid all foods in that specific category."
+    />
+    <InsightParagraph
+      title="Insight Twelve, Fear"
+      forward="Distraction is a commonly applied coping mechanism for children experiencing allergy attacks either during or after."
+      text="When children experience an allergic reaction, they take epinephrine or generic medication and wait it out until the symptoms lessen. In the meantime, they are in pain and experience anxiety, stomach aches, and restlessness. Through this time, the only thing children are left to do is to shift their attention to something else. Some distraction methods include watching and playing video games, reading books, or applying ice packs to the pained area. Distraction is used as a pain reducer as it keeps their mind occupied from the pain."
+    />
+    <section className="opportunity-areas-section">
+      <div className="opportunity-areas-container">
+        <div className="bullet-list-container">
+          <div className="title">
+            <h4>Opportunity Areas</h4>
+          </div>
+          <div className="bullet-list-row">
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Better educate people on how to properly deal with a reaction while it’s taking place</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Make the process of determining which foods are safe to consume easier to understand</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Design for control in an uncontrolled environment</div>
+            </div>
+          </div>
+          <div className="bullet-list-row">
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Create a more informed diagnostic experience for children and their parents</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Build on support of the local community to ease the mourning process for families</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Alleviate the concern of making mistakes when dealing with a reaction in the moment</div>
+            </div>
+          </div>
+          <div className="bullet-list-row">
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Build trust between the parent and school through established expectations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <UISpecs
+      docName="allergies_research_report"
+      projectColor={`${AllergiesGreen}`}
+      text="View Research Report Here"
+    />
+    <section className="reflections-section">
+      <div className="spacer-container">
+        <div className="spacer" style={{ background: `${AllergiesGreen}`}}></div>
+      </div>
+      <div className="reflections-container">
+        <span className="reflections-title" style={{ color: `${AllergiesGreen}`}}>Reflections</span>
+        <span className="horizontal-line"></span>
+        <div className="article-container">
+          <h4 className="title">Future Steps</h4>
+          <p className="text">
+          Next quarter we will be taking these insights, themes and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five concepts that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteen’s manage their food allergies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <NextProject
+      projectKey="astraia"
     />
   </div>
 );

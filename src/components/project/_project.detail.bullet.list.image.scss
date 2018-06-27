@@ -29,9 +29,11 @@
       position: relative;
       left: 50vw;
       margin: 4em 0 4em 8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
       .title {
-        padding-top: 1em;
         font-size: 28px;
       }
 

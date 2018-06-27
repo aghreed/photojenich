@@ -267,7 +267,7 @@ const AstraiaPage = ({
         </div>
       </section>
       <UISpecs
-        projectKey="astraia"
+        docName="astraia_uispec"
         projectColor={AstraiaPurple}
       />
       <section className="reflections-section">
