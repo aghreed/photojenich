@@ -1,0 +1,121 @@
+.about-container {
+
+  .about-hero-section {
+    margin: 4em 8em;
+
+    .about-hero {
+      position: relative;
+      height: 175px;
+
+      h2 {
+        max-width: 750px;
+        font-size: 36px;
+        line-height: 45px;
+      }
+
+      .line {
+        height: 3px;
+        width: 55px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #0D1017;
+      }
+    }
+
+    .article-container {
+      margin-top: 3em;
+      text-align: left;
+      max-width: 894px;
+
+      .article-row {
+        display: flex;
+        flex-direction: row;
+
+        .article {
+          max-width: 416px;
+          margin-right: 3em;
+
+          .text {
+            font-size: 14px;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+
+  .social-container {
+    margin: 4em 0;
+
+    .social-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .social {
+        position: relative;
+        height: 190px;
+        width: 172px;
+
+        .bar {
+          height: 3px;
+          width: 55px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: #0D1017;
+        }
+
+        .title {
+          margin-top: 2.5em;
+          font-size: 18px;
+          line-height: 22px;
+        }
+
+        .actions {
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+
+          .action {
+            color: #0D1017;
+            border: 1px solid #0D1017;
+            max-width: 100%;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 1em;
+            padding-right: 1em;
+            font-size: 14px;
+            transition: all 250ms;
+
+            &:hover {
+              cursor: pointer;
+              color: #fff;
+              border: 1px solid #fff;
+              background-color: #0D1017;
+            }
+          }
+
+          .actions-icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: .5em;
+
+            .action-icon {
+              width: 40px;
+              height: 40px;
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
