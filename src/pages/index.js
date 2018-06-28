@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
             vertical="Research & Ideation"
             text="Project managment application for the court, streamlining processes and communication."
             image={AstraiaImage}
-            offset={1}
+            offset={1.2}
           />
           <ProjectOverview
             goofy

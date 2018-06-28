@@ -25,12 +25,12 @@ const ProjectOverview = ({
         </div>
       </ParallaxLayer>
       <ParallaxLayer offset={offset} speed={0.5}>
-        <h1
+        <div
           className={`title ${title === 'Allergies' ? 'allergies-title' : ''}`}
           onClick={ () => navigateTo(`/${title.replace(' ', '_').toLowerCase()}`)}
         >
             {title}
-        </h1>
+        </div>
         <div className="line"></div>
         <div className="text">{text}</div>
       </ParallaxLayer>

@@ -5,12 +5,45 @@
 
 @font-face {
   font-family: "Tara";
+  src: url('../fonts/itf-tara-italic.otf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tara";
   src: url('../fonts/itf-tara-bold.otf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Tara";
-  src: url('../fonts/itf-tara-semibold.otf');
+  src: url('../fonts/itf-tara-bold-italic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tara";
+  src: url('../fonts/itf-tara-medium.otf');
   font-weight: 500;
+}
+
+@font-face {
+  font-family: "Tara";
+  src: url('../fonts/itf-tara-medium-italic.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tara";
+  src: url('../fonts/itf-tara-semibold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Tara";
+  src: url('../fonts/itf-tara-semibold-italic.otf');
+  font-weight: 600;
+  font-style: italic;
 }
