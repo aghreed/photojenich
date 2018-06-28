@@ -11,6 +11,7 @@ import SegwayHero from "../../components/project/project.detail.segway.hero";
 import InsightParagraph from "../../components/project/project.detail.insight.paragraph";
 import UISpecs from "../../components/project/project.detail.ui.specs";
 import NextProject from "../../components/project/project.detail.next.project";
+import ProjectReflections from "../../components/project/project.detail.reflections";
 
 import "./_allergies.scss";
 
@@ -313,21 +314,11 @@ const AllergiesPage = ({
       projectColor={`${AllergiesGreen}`}
       text="View Research Report Here"
     />
-    <section className="reflections-section">
-      <div className="spacer-container">
-        <div className="spacer" style={{ background: `${AllergiesGreen}`}}></div>
-      </div>
-      <div className="reflections-container">
-        <span className="reflections-title" style={{ color: `${AllergiesGreen}`}}>Reflections</span>
-        <span className="horizontal-line"></span>
-        <div className="article-container">
-          <h4 className="title">Future Steps</h4>
-          <p className="text">
-          Next quarter we will be taking these insights, themes and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five concepts that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteen’s manage their food allergies.
-          </p>
-        </div>
-      </div>
-    </section>
+    <ProjectReflections
+      projectColor={AllergiesGreen}
+      title="Future Steps"
+      text="Next quarter we will be taking these insights, themes and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five concepts that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteen’s manage their food allergies."
+    />
     <NextProject
       projectKey="astraia"
     />

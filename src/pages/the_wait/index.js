@@ -9,6 +9,7 @@ import UISpecs from "../../components/project/project.detail.ui.specs";
 import NextProject from "../../components/project/project.detail.next.project";
 import ParagraphImage from "../../components/project/project.detail.paragraph.image";
 import BulletListImage from "../../components/project/project.detail.bullet.list.image";
+import ProjectReflections from "../../components/project/project.detail.reflections";
 
 import "./_the_wait.scss";
 
@@ -283,28 +284,14 @@ const TheWaitPage = ({
       docName="the_wait_uispec"
       projectColor={`${TheWaitColor}`}
     />
-    <section className="reflections-section">
-      <div className="spacer-container">
-        <div className="spacer" style={{ background: `${TheWaitColor}`}}></div>
-      </div>
-      <div className="reflections-container">
-        <span className="reflections-title" style={{ color: `${TheWaitColor}`}}>Reflections</span>
-        <span className="horizontal-line"></span>
-        <div className="article-container">
-          <h4 className="title">What I learned</h4>
-          <p className="text">
-          Through creating this experience from start to finish, I realized how many different touchpoints and stakeholders go into creating a seemingly simple experience. Learning to take each one into account helped us create a more holistic, desirable and realized experience for not only the support system, but others indirectly affected as well.
-          </p>
-          <p className="text">
-          One of the major issues we needed to combat during the design of our service was how we relay information and in what detail. Surgeries are stressful for the support system for a reason and we wanted to make sure that the information we were giving wouldn’t add to their anxieties. Knowing this and the seriousness of what could happen if something was relayed incorrectly through our app during such a high stakes situation, we decided to focus in on a less serious surgery for our scenario, specifically ACL tears.
-          </p>
-          <h4 className="title">Next Steps</h4>
-          <p className="text">
-          Stress and anxiety does not conclude at the end of a surgery, in fact it oftentimes gets more stressful as the support system oftentimes takes on the role as the caregiver. I would foresee extending this app to touch the “post-surgery” section of the timeline as well. I would personally also be interested in learning more about how to relay sensitive information in and effective way, to make this application more fitting for a wide breadth of surgeries.
-          </p>
-        </div>
-      </div>
-    </section>
+    <ProjectReflections
+      projectColor={TheWaitColor}
+      title="What I learned"
+      text="Through creating this experience from start to finish, I realized how many different touchpoints and stakeholders go into creating a seemingly simple experience. Learning to take each one into account helped us create a more holistic, desirable and realized experience for not only the support system, but others indirectly affected as well."
+      text2="One of the major issues we needed to combat during the design of our service was how we relay information and in what detail. Surgeries are stressful for the support system for a reason and we wanted to make sure that the information we were giving wouldn’t add to their anxieties. Knowing this and the seriousness of what could happen if something was relayed incorrectly through our app during such a high stakes situation, we decided to focus in on a less serious surgery for our scenario, specifically ACL tears."
+      secondTitle="Next Steps"
+      secondText="Stress and anxiety does not conclude at the end of a surgery, in fact it oftentimes gets more stressful as the support system oftentimes takes on the role as the caregiver. I would foresee extending this app to touch the “post-surgery” section of the timeline as well. I would personally also be interested in learning more about how to relay sensitive information in and effective way, to make this application more fitting for a wide breadth of surgeries."
+    />
     <NextProject
       projectKey="allergies"
     />

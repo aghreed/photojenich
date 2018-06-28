@@ -4,6 +4,7 @@ import ProjectDetailHero from '../../components/project/project.detail.hero';
 import ProjectDetailBrief from '../../components/project/project.detail.brief';
 import UISpecs from "../../components/project/project.detail.ui.specs";
 import NextProject from "../../components/project/project.detail.next.project";
+import ProjectReflections from "../../components/project/project.detail.reflections";
 
 import './_astraia.scss';
 
@@ -270,34 +271,16 @@ const AstraiaPage = ({
         docName="astraia_uispec"
         projectColor={AstraiaPurple}
       />
-      <section className="reflections-section">
-        <div className="purple-spacer-container">
-          <div className="purple-spacer"></div>
-        </div>
-        <div className="reflections-container">
-          <span className="reflections-title">Reflections</span>
-          <span className="horizontal-line"></span>
-          <div className="article-container">
-            <h4 className="title">Future Steps</h4>
-            <p className="text">
-            There are barriers and obstacles when it comes to getting technology to be accepted in the court systems, and we we would address that by going to court coordinators and telling them about the benefit of our software, since they are the managers of their respective courts.
-            </p>
-            <p className="text">
-            We would also push for this to become responsive for tablets and phones, as well as automate case filings into the system so efficiency is maximized and manual input would no longer be required. The integration of LexisNexis, the premier reference database for lawyers and clerks would be an essential add to Astraia’s reference widget as well.
-            </p>
-            <p className="text">
-            Finally, we would add new roles to the system, for the court coordinator to oversee everything and help simplify their management tasks. Our goal would be to make a more robust communication application for the municipal courts.
-            </p>
-            <h4 className="title">Reflections</h4>
-            <p className="text">
-            My team and I set off in a very broad and intimidating challenge space and were able to find our way and create something we were proud of. Ideally, I wish we would have realized we were trying to tackle both a wicked problem, and a policy problem (implicit bias and decision fatigue) right away so we could have invested more time in interviewing and doing field study observations of court and law clerks. We were able to easily pivot when we realized we were looking in the wrong area, however, and made up for lost time.
-            </p>
-            <p className="text">
-            I personally loved this project space. I am interested in complex sociotechnical systems and how responsible design can help us incrementally change and respond to the historical problems we face in our society. This challenge space pushed me out of my comfort zone and forced me to understand how the sub system of the municipal court works within the larger judicial system of the United States.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ProjectReflections
+        projectColor={AstraiaPurple}
+        title="Future Steps"
+        text="There are barriers and obstacles when it comes to getting technology to be accepted in the court systems, and we we would address that by going to court coordinators and telling them about the benefit of our software, since they are the managers of their respective courts."
+        text2="We would also push for this to become responsive for tablets and phones, as well as automate case filings into the system so efficiency is maximized and manual input would no longer be required. The integration of LexisNexis, the premier reference database for lawyers and clerks would be an essential add to Astraia’s reference widget as well."
+        text3="Finally, we would add new roles to the system, for the court coordinator to oversee everything and help simplify their management tasks. Our goal would be to make a more robust communication application for the municipal courts."
+        secondTitle="Reflections"
+        secondText="My team and I set off in a very broad and intimidating challenge space and were able to find our way and create something we were proud of. Ideally, I wish we would have realized we were trying to tackle both a wicked problem, and a policy problem (implicit bias and decision fatigue) right away so we could have invested more time in interviewing and doing field study observations of court and law clerks. We were able to easily pivot when we realized we were looking in the wrong area, however, and made up for lost time."
+        secondText2="I personally loved this project space. I am interested in complex sociotechnical systems and how responsible design can help us incrementally change and respond to the historical problems we face in our society. This challenge space pushed me out of my comfort zone and forced me to understand how the sub system of the municipal court works within the larger judicial system of the United States."
+      />
       <NextProject
         projectKey="the_wait"
       />
