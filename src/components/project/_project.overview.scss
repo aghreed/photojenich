@@ -4,34 +4,34 @@
   height: 100%;
   justify-content: center;
 
-  &:hover {
-    cursor: pointer;
-  }
-
   &.goofy {
     flex-direction: row-reverse;
 
     .image {
-      left: 9%;
+      left: 9vw;
       right: auto;
     }
 
     .vertical {
-      right: 11em;
+      left: auto;
+      right: 11vw;
     }
 
     .title {
-      position: relative;
-      left: 2.5vw;
+      // position: relative;
+      // left: 2.5vw;
     }
 
     .line {
-      transform: translate(3.5em, 15em) rotate(-45deg);
+      transform: rotate(-45deg);
+      right: auto;
+      left: 40vw;
     }
 
     .text {
       text-align: right;
-      left: -1em;
+      right: auto;
+      left: 21vw;
     }
   }
 
@@ -43,37 +43,50 @@
     background-size: contain;
     width: 100%;
     height: 80%;
-    right: 9%;
+    right: 9vw;
   }
 
   .vertical {
-    position: relative;
-    right: 40vw;
-    top: -30vh;
+    position: absolute;
+    left: 11vw;
+    top: 20vh;
     transform: rotate(90deg);
   }
 
   .title {
+    position: absolute;
+    left: 36vw;
     font-size: 100px;
     z-index: 1;
     padding-top: 100px;
     font-family: "Tara";
+
+    &.allergies-title {
+      left: 30vw;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .line {
+    position: absolute;
+    top: 45vh;
+    right: 41vw;
     width: 1px;
     height: 75px;
     background: #000;
-    transform: translate(-1.5em, 15em) rotate(45deg);
+    transform: rotate(45deg);
   }
 
   .text {
+    position: absolute;
     font-size: 18px;
     width: 180px;
     max-height: 300px;
-    position: relative;
     top: 50vh;
-    left: 1em;
+    right: 21vw;
     line-height: 29px;
   }
 }

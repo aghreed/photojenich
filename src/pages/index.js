@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { Parallax, ParallaxLayer } from 'react-spring';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -27,28 +28,35 @@ class BlogIndex extends React.Component {
         <Helmet title="Photojenich">
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
-        <Hero />
-        <Header location={this.props.location} />
-        <ProjectOverview
-          title="Astraia"
-          vertical="Research & Ideation"
-          text="Project managment application for the court, streamlining processes and communication."
-          image={AstraiaImage}
-        />
-        <ProjectOverview
-          goofy
-          title="The Wait"
-          vertical="Experience Design"
-          text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
-          image={TheWaitImage}
-        />
-        <ProjectOverview
-          title="Allergies"
-          vertical="Capstone Project"
-          text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
-          image={AllergiesImage}
-        />
-        <Footer />
+        <Parallax pages={4}>
+          <ParallaxLayer offset={0}>
+            <Hero />
+            <Header location={this.props.location} />
+          </ParallaxLayer>
+          <ProjectOverview
+            title="Astraia"
+            vertical="Research & Ideation"
+            text="Project managment application for the court, streamlining processes and communication."
+            image={AstraiaImage}
+            offset={1}
+          />
+          <ProjectOverview
+            goofy
+            title="The Wait"
+            vertical="Experience Design"
+            text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
+            image={TheWaitImage}
+            offset={1.2}
+          />
+          <ProjectOverview
+            title="Allergies"
+            vertical="Capstone Project"
+            text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
+            image={AllergiesImage}
+            offset={1.2}
+          />
+          <Footer />
+        </Parallax>
       </div>
     )
   }
