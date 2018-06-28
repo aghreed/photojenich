@@ -26,12 +26,12 @@ $astraia-purple: #8338EC;
 
       .article-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         font-size: 18px;
         line-height: 29px;
 
         .right, .left {
-          padding: 1em;
+          max-width: 350px;
         }
       }
 
@@ -86,16 +86,12 @@ $astraia-purple: #8338EC;
     height: auto;
 
     .article-container {
-      margin: 4em 8em;
+      margin: 4em auto;
+      max-width: 686px;
 
       a {
         color: $astraia-purple;
         text-decoration: underline;
-      }
-
-      h3 {
-        margin-top: 4em;
-        margin-bottom: 1em;
       }
 
       .text {
@@ -317,7 +313,8 @@ $astraia-purple: #8338EC;
       max-width: 664px;
       margin: 0 auto;
       color: $astraia-purple;
-      font-weight: bold;
+      font-style: italic;
+      font-family: "Tara";
     }
   }
 
@@ -335,7 +332,8 @@ $astraia-purple: #8338EC;
       }
 
       .flow-description {
-        margin-top: 6em;
+        margin: 6em auto;
+        max-width: 686px;
 
         .flow-title {
           font-size: 24px;

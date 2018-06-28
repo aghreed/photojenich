@@ -5,6 +5,7 @@ import ProjectDetailBrief from '../../components/project/project.detail.brief';
 import UISpecs from "../../components/project/project.detail.ui.specs";
 import NextProject from "../../components/project/project.detail.next.project";
 import ProjectReflections from "../../components/project/project.detail.reflections";
+import SegwayQuote from "../../components/project/project.detail.segway.quote";
 
 import './_astraia.scss';
 
@@ -13,13 +14,14 @@ import AstraiaNBGImage from '../../images/astraia/astraia_nbg.png';
 import SystemMapImage from '../../images/astraia/system_map.png';
 import AstraiaIdeationImage from '../../images/astraia/astraia_ideation.png';
 import AstraiaPaperPrototypingImage from '../../images/astraia/astraia_paperprototyping.png';
-import AstraiaWireframingImage from '../../images/astraia/astraia_wireframing.png';
+import AstraiaWireframingImage from '../../images/astraia/astraia_wireframing2.jpg';
 import FlowOneImage from '../../images/astraia/flow_one_desktop.png';
 import FlowTwoImage from '../../images/astraia/flow_two_desktop.png';
 import FlowThreeImage from '../../images/astraia/flow_three_desktop.png';
 import FlowFourImage from '../../images/astraia/flow_four_desktop.png';
 
 const AstraiaPurple = '#8338EC';
+const AstraiaBackgroundColor = '#EDEDED';
 
 const AstraiaPage = ({
   location
@@ -64,15 +66,12 @@ const AstraiaPage = ({
           <div className="court-system-image" style={{backgroundImage: `url(${SystemMapImage})`}}></div>
         </div>
       </section>
-      <section className="segway">
-        <div className="streamline-container">
-          {/*<div className="diagonal-line high"></div>*/}
-          <div className="streamline-text">
-            <h2>We aimed to streamline these processes to help prioritize the level of care and time spent on each case.</h2>
-          </div>
-          {/*<div className="diagonal-line low"></div>*/}
-        </div>
-      </section>
+      <SegwayQuote
+        quote="We aimed to streamline these processes to help prioritize the level of care and time spent on each case."
+        projectColor={AstraiaPurple}
+        projectBackgroundColor={AstraiaBackgroundColor}
+        maxWidth={868}
+      />
       <section className="hangry-section">
         <div className="article-container">
           <h4>Hangry Judges and Unfair Sentences</h4>
