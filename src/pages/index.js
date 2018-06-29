@@ -75,7 +75,7 @@ class BlogIndex extends React.Component {
   render() {
     return (
       <div className="tk-nimbus-sans">
-        <Helmet title="Photojenich">
+        <Helmet title="Whitney Jenich">
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
         <Header location={this.props.location} hideHeader={this.state.hideHeader} />
