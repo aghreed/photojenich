@@ -1,0 +1,91 @@
+.project-overview-container {
+  display: flex;
+  margin: 3em;
+  height: 100%;
+  justify-content: center;
+
+  &.goofy {
+    flex-direction: row-reverse;
+
+    .image {
+      left: 9vw;
+      right: auto;
+    }
+
+    .vertical {
+      left: auto;
+      right: 11vw;
+    }
+
+    .title {
+      text-align: left;
+      right: auto;
+      left: 38vw;
+    }
+
+    .line {
+      transform: rotate(-45deg);
+      right: auto;
+      left: 40vw;
+    }
+
+    .text {
+      text-align: right;
+      right: auto;
+      left: 18vw;
+    }
+  }
+
+  .image {
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    right: 9vw;
+  }
+
+  .vertical {
+    position: absolute;
+    left: 11vw;
+    top: 20vh;
+    transform: rotate(90deg);
+  }
+
+  .title {
+    position: absolute;
+    right: 38vw;
+    font-size: 125px;
+    z-index: 1;
+    top: 25vh;
+    font-family: "Tara";
+    text-align: right;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .line {
+    position: absolute;
+    top: 45vh;
+    right: 40vw;
+    width: 1px;
+    height: 75px;
+    background: #000;
+    transform: rotate(45deg);
+  }
+
+  .text {
+    position: absolute;
+    font-size: 18px;
+    width: 250px;
+    max-height: 300px;
+    top: 50vh;
+    right: 18vw;
+    line-height: 29px;
+    font-weight: 300;
+  }
+}

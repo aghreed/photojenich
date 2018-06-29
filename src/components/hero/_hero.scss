@@ -1,0 +1,50 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  h1.hero-title {
+    margin: 5em;
+    font-family: "Tara";
+    font-size: 42px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 700ms linear;
+
+    &.hidden {
+      opacity: 0;
+    }
+  }
+
+  .scrolldown-container {
+    position: relative;
+    width: 8em;
+    top: 1em;
+    font-size: 16px;
+    opacity: 1;
+    transition: all 350ms linear;
+
+    &.hidden {
+      opacity: 0;
+      top: 0;
+    }
+
+    span {
+      font-size: 14px;
+      color: #4A4A4A;
+    }
+
+    .scrolldown {
+      position: absolute;
+      left: 4em;
+      top: 2em;
+      width: 1px;
+      height: 5em;
+      background: #000;
+    }
+  }
+}

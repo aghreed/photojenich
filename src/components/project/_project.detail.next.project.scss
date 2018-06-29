@@ -1,0 +1,22 @@
+.next-project-container {
+  display: flex;
+  justify-content: center;
+  margin: 8em 0;
+
+  .next-project {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0D1017;
+    border: 1px solid #0D1017;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: #0D1017;
+    }
+  }
+}

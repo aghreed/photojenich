@@ -1,0 +1,30 @@
+.in-brief-section {
+  height: auto;
+
+  .in-brief-container {
+    margin: 6em auto;
+    max-width: 686px;
+
+    .title {
+      font-size: 24px;
+      font-family: "Tara";
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    .horizontal-line {
+      display: inline-block;
+      width: 45px;
+      height: 1px;
+      margin-left: 1em;
+      margin-bottom: 0.3em;
+      background: #979797;
+    }
+
+    .text {
+      margin-top: 1em;
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+}

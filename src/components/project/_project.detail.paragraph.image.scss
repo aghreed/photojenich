@@ -1,0 +1,54 @@
+.paragraph-image-section {
+  height: auto;
+
+  .paragraph-image-container {
+    position: relative;
+    margin: 4em 0;
+    height: 500px;
+
+    &.goofy {
+      .description {
+        right: -10vw;
+        margin: 0;
+        left: auto;
+      }
+
+      .image {
+        right: 0;
+        left: auto;
+        background-position: right;
+      }
+    }
+
+    .description {
+      position: relative;
+      left: 50vw;
+      margin: 4em 0 4em 8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      .title {
+        font-size: 28px;
+      }
+
+      .text {
+        margin-top: 1em;
+        max-width: 30vw;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+
+    .image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 55vw;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+    }
+  }
+}

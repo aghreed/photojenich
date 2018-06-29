@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  padding-top: 50vh;
+
+  .footer-container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 4em 0;
+
+    strong, p {
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+}

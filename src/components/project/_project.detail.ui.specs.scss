@@ -1,0 +1,52 @@
+$astraia-purple: #8338EC;
+$allergies-green: #03C193;
+$wait-blue: #43A0FF;
+
+.ui-specs-container {
+  display: flex;
+  justify-content: center;
+  margin: 8em 0;
+
+  .ui-specs {
+    min-width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    &.astraia {
+      border: 1px solid $astraia-purple;
+      color: $astraia-purple;
+
+      &:hover {
+        background: $astraia-purple;
+      }
+    }
+
+    &.the_wait {
+      border: 1px solid $wait-blue;
+      color: $wait-blue;
+
+      &:hover {
+        background: $wait-blue;
+      }
+    }
+
+    &.allergies {
+      border: 1px solid $allergies-green;
+      color: $allergies-green;
+
+      &:hover {
+        background: $allergies-green;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+}

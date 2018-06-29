@@ -1,0 +1,34 @@
+$allergies-green: #28C8A1;
+
+.insight-paragraph-section {
+  height: auto;
+
+  .insight-paragraph-container {
+    margin: 4em 8em;
+
+    .insight-description {
+      margin: 0 auto;
+      max-width: 686px;
+
+      .insight-title {
+        color: $allergies-green;
+        font-size: 18px;
+        margin-bottom: 2em;
+      }
+
+      .forward {
+        font-size: 24px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: 500;
+        font-family: "Tara";
+      }
+
+      .text {
+        margin-top: 2em;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+  }
+}

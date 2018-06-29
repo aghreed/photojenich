@@ -1,0 +1,63 @@
+.bullet-list-image-section {
+  height: 80vh;
+
+  .bullet-list-image-container {
+    position: relative;
+    height: 500px;
+
+    &.goofy {
+      .description {
+        margin: 4em 0 4em 8em;
+        left: -3vw;
+      }
+
+      .bullet-list {
+        max-width: 331px;
+        font-size: 18px;
+        line-height: 29px;
+      }
+
+      .image {
+        right: 0;
+        left: auto;
+        background-position: right;
+      }
+    }
+
+    .description {
+      position: relative;
+      left: 50vw;
+      margin: 4em 0 4em 8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .title {
+        font-size: 28px;
+      }
+
+      .bullet-list {
+        max-width: 31vw;
+        font-size: 18px;
+        line-height: 29px;
+      }
+
+      .text {
+        max-width: 31vw;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+
+    .image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 55vw;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
+    }
+  }
+}
