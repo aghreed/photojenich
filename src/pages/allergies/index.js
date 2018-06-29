@@ -48,13 +48,13 @@ const AllergiesPage = ({
       projectColor={AllergiesGreen}
     />
     <ProjectDetailBrief
-      text="One in 13 children have been diagnosed with a food allergy, that averages to around two per classroom. With a 106% increase in the diagnosis of severe reactions to allergens in the past two years, it cannot be understated that allergies are affecting our children more and more. But in a world that doesn’t quite understand it’s prevalence, we are left with a dangerous gap in knowledge and space for life threatening mistakes with this oftentimes chronic condition."
+      text="One in 13 children has been diagnosed with a food allergy, that averages to around two per classroom. With a 106% increase in the diagnosis of severe reactions to allergens in the past two years, it cannot be understated that allergies are affecting our children more and more. But in a world that doesn’t quite understand it’s prevalence, we are left with a dangerous gap in knowledge and space for life-threatening mistakes with this frequently chronic condition."
     />
     <ParagraphImage
       goofy
       image={AllergiesCrab}
       title="Why Allergies?"
-      text="While explanations for the increase in food allergens may be pointing to our environment, studies are slow to invoke change. We realized we could have impact, now, in aiding in the management of food allergies, specifically in preteens."
+      text="While explanations for the increase in food allergens may be pointing to our environment, studies are slow to invoke change. We realized we could make an impact, now, in aiding in the management of food allergies, specifically in preteens."
     />
     <ParagraphImage
       image={AllergiesMilk}
@@ -62,7 +62,7 @@ const AllergiesPage = ({
       text="50% of deaths due to anaphylaxis shock happen in teenage years. This comes down to multiple factors, including the increase in independence, peer pressure, and risk taking. We wanted to take a preventative and empowering approach, focusing on preteens ages 9-12 while they get ready for their teenage years."
     />
     <SegwayQuote
-      quote="“We strive to support preteens with food allergies to independently manage the contents of their food.”"
+      quote="“We strive to support preteens in independently managing their food allergies.”"
       projectColor={AllergiesGreen}
       projectBackgroundColor={AllergiesBackgroundColor}
     />
@@ -70,17 +70,17 @@ const AllergiesPage = ({
       goofy
       image={AllergiesBean}
       title="Research Questions"
-      text="To get to the root of our challenge statement we set off to answer two questions."
-      text2="1. How do food allergies affect interpersonal relationships in both the child’s and guardians lives?"
+      text="To get to the root of our challenge statement, we set off to answer two questions."
+      text2="1. How do food allergies affect interpersonal relationships in both the child and guardians' lives?"
       text3="2. How do children and parents, prevent, react to, and manage the food allergy?"
     />
     <SingleTitledParagraph
       title="Literature Review"
-      text="We explored multiple different avenues to inform our knowledge around food allergies. Understanding that food allergies are a health problem, we studied on a medical and biological level. We also studied allergies on a social and psychological level, reading papers on the the affects allergies have on family relationships as well as psychological ramifications they may have on the child. Our extensive review led us to understand and begin to empathize with the complexities of living with a chronic condition like food allergies."
+      text="We explored multiple different avenues to inform our knowledge of food allergies. Understanding that food allergies are a health problem, we studied on a medical and biological level. We also studied allergies on a social and psychological level, reading papers on the effects allergies have on family relationships as well as psychological ramifications they may have on the child. Our extensive review led us to understand and begin to empathize with the complexities of living with a chronic condition like food allergies."
     />
     <SingleTitledParagraph
       title="Expert Interviews"
-      text="To build off of our foundational knowledge built in the secondary research phase, we sought out four experts in a range of fields to shed light on medical, community, and business levels.  We conducted semi-structured interviews with two allergists, a senior manager of nutrition services of a major commercial catering company, Sodexo, and the founder and leader of the online community “No Nuts Moms.”"
+      text="To build off of our foundational knowledge developed in the secondary research phase, we sought out four experts in a range of fields to shed light on medical, community, and business levels.  We conducted semi-structured interviews with two allergists, a senior manager of nutrition services of a major commercial catering company, Sodexo, and the founder and leader of the online community “No Nuts Moms.”"
     />
     <section className="testimonials-section">
       <div className="testimonials-container">
@@ -88,10 +88,10 @@ const AllergiesPage = ({
           <div className="testimonial">
             <div className="image" style={{ backgroundImage: `url(${Lisa})`}}></div>
             <div className="testimony">
-              “With the increase in food allergies, communities online and in-person have become invaluable for parents seeking advice when doctors aren’t available.”
+            “With the increase in food allergies, communities online and in-person have become invaluable for parents seeking advice when doctors aren’t available.”
             </div>
             <div className="testimony-attribution">
-             — Lisa Rutter, founder of No Nuts Moms
+              — Lisa Rutter, founder of No Nuts Moms
             </div>
           </div>
           <div className="testimonial">
@@ -100,7 +100,7 @@ const AllergiesPage = ({
             “Despite the increase in the prevalence of allergies, death from allergies are rare, but that doesn’t stop the hysteria from manifesting.”
             </div>
             <div className="testimony-attribution">
-             — Dr. Stephen Tilles, Allergist
+              — Dr. Stephen Tilles, Allergist
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@ const AllergiesPage = ({
             “Communication is key when dealing with parent’s of children with food allergies, especially when you are in charge of their food.”
             </div>
             <div className="testimony-attribution">
-             — Devra Shiba, Senior Nutrition Manager, Sodexo
+              — Devra Shiba, Senior Nutrition Manager, Sodexo
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ const AllergiesPage = ({
     </section>
     <SingleTitledParagraph
       title="Recruiting Parents and Children"
-      text="In order to get answers to our two research questions we recruited in parent/child dyads. We looked for children ages 9-12 with a range of severity in reactions as well as type of food allergens. We recruited in dyads to gain trust, and see the deep and rich interpersonal relationships parents and their children have. Since we believe the parent/child partnership is essential to managing preteen’s food allergies, we wanted to hear their stories about what it is like managing and dealing with a food allergy."
+      text="In order to get answers to our two research questions, we recruited in parent/child dyads. We looked for children ages 9-12 with a range of severity in reactions as well as types of food allergens. We recruited in dyads to gain trust, and see the deep and rich interpersonal relationships parents and their children have. Since we believe the parent/child partnership is essential to managing preteen’s food allergies, we wanted to hear their stories about what it is like managing and dealing with a food allergy."
     />
     <section className="allergies-chart-section">
       <div className="allergies-chart-container">
@@ -143,25 +143,25 @@ const AllergiesPage = ({
     />
     <SingleTitledParagraph
       title="Lessons Learned"
-      text="Our diary was a big learning experience for our team. We had the most difficulty retaining participants for this exercise and learned about the delicate balance of relaying enough information to the participants that made them interested in helping, but not enough for them to feel overwhelmed by what we were asking them to do."
-      text2="We also learned the importance of the design of the diary itself. Our original design consisted of three blank boxes on each page, with one page for each day. We quickly realized that when we presented them with this design, our participants started to see the diary as more of a food diary and just listed what they were eating. We added more context to our description prompts and added an extra box to each page to help disassociate the diary with only food related experiences."
+      text="Our diary was a significant learning experience for our team. We had the most difficulty retaining participants for this exercise and learned about the delicate balance of relaying enough information to the participants that made them interested in helping, but not enough for them to feel overwhelmed by what we were asking them to do."
+      text2="We also learned the importance of the design of the diary itself. Our original design consisted of three blank boxes on each page, with one page for each day. We quickly realized that when we presented them with this design, our participants started to see the diary as more of a food diary and just listed what they were eating. We added more context to our description prompts and added an extra box to each page to help disassociate the journal with only food-related experiences."
     />
     <ParagraphImage
       goofy
       image={AllergiesSemiStructured}
-      title="Semi Structured Interviews"
-      text="We conducted nine 45-75 minute semi-structured interviews. When available, we did it within their homes, to gain rapport more easily and get a better idea of how they organize their lives around food allergies, like their kitchen design."
+      title="Semi-Structured Interviews"
+      text="We conducted nine 45-75 minute semi-structured interviews. When available, we did it within their homes, to gain rapport and get a better idea of how they organize their lives around food allergies, like their kitchen design."
     />
     <ParagraphImage
       image={AllergiesRelationshipCircle}
       title="Relationship Circle"
-      text="Once rapport was built, we asked our participants to engage in our Relationship Circle Exercise to better understand their relationship with their community. We asked preteens to place “face cards” in corresponding rings around the middle circle, which represented themselves. We observed and asked them to think aloud. We then asked if their rings would change in relation to their food allergy. If it did, we asked why, and noted if it did not. We found surprisingly that most children made only slight, to no changes."
+      text="Once rapport was built, we asked our participants to engage in our Relationship Circle Exercise to better understand their relationship with their community. We asked preteens to place “face cards” in corresponding rings around the middle circle, which represented themselves. We observed and asked them to think aloud. We then asked if their rings would change when it concerned their food allergy. If it did, we asked why and noted if it did not. We found surprisingly that most children made only slight, to no changes."
     />
     <SegwayBulletList
       title="Finding Insights and Opportunities"
-      itemOne="Externalize data from interviews into digestable models and frameworks."
+      itemOne="Externalize data from interviews into digestible models and frameworks."
       itemTwo="Create Insights from these models and themes formed."
-      itemThree="From our insights, find rich and enlightened opportunity areas for us to explore with our solution."
+      itemThree="From our insights, find enlightened opportunity areas for us to explore with our solution."
       projectColor={AllergiesGreen}
       projectBackgroundColor={AllergiesBackgroundColor}
     />
@@ -169,12 +169,12 @@ const AllergiesPage = ({
       goofy
       image={AllergiesPersonalityGraph}
       title="Synthesis Models"
-      text="To help us get a better grasp on our overwhelming amount of data, we each created our own synthesis models related to information we found enlightening during the interview process. On the right is a graph that took all 12 of our preteen participants, the severity of their allergy, frequency of reactions, and their attitude towards their allergies into account to help us see if there were patterns. We ended up seeing that children with more mild allergies have more reactions, but engage in riskier eating and live more worry free."
+      text="To help us get a better grasp on our overwhelming amount of data, we each created our own synthesis models. On the right is a graph that took all 12 of our preteen participants, the severity of their allergy, the frequency of reactions, and their attitude towards their allergies into account to help us see if there were patterns. We saw that children with more mild allergies, tend to engage in riskier eating-- increasing the frequency of their reactions.  These children also live more worry-free compared to those who may have a more severe allergy but have only had one reaction in their lifetime."
     />
     <ParagraphImage
       image={AllergiesSynthesis}
       title="Synthesizing"
-      text="We externalized all of our hard data from our interviews onto sticky notes, then placed them into different categories. Once in categories, we started looking deeper, finding four larger themes; trust awareness, isolation, and fear, in which our final 12 insights encapsulated and stemmed from."
+      text="We externalized all of our hard data from our interviews onto sticky notes, then placed them into different categories. Once in categories, we started looking more in-depth, finding four larger themes; trust awareness, isolation, and fear, in which our final 12 insights encapsulated and stemmed from."
     />
     <SegwayHero
       title="Theme One"
@@ -191,7 +191,7 @@ const AllergiesPage = ({
     <InsightParagraph
       title="Insight Two, Trust"
       forward="Trust in the school system is compromised when regulations surrounding allergy education are inconsistent."
-      text="National guidelines exist around food allergies in school systems, however, every school district differs from one another even in the same state. We found that most schools did have some set guidelines in place, but they were not necessarily being followed by school staff, students, nor those students’ parents. These inconsistencies proved frustrating for parents, as they believed their child to be in a safe space, only to be reminded by one-off incidents that protocols were not being enforced."
+      text="National guidelines exist around food allergies in school systems. However, every school district differs from one another even in the same state. We found that most schools did have some set guidelines in place, but they were not necessarily being followed by school staff, students, nor those students’ parents. These inconsistencies proved frustrating for parents, as they believed their child to be in a safe space, only to be reminded by one-off incidents that protocols were not being enforced."
     />
     <InsightParagraph
       title="Insight Three, Trust"
@@ -208,22 +208,22 @@ const AllergiesPage = ({
     <InsightParagraph
       title="Insight Four, Isolation"
       forward="Children feel isolated with their food allergy because their natural curiosity to try new things is severely restricted, relative to their social circle."
-      text="When it comes to a child’s social circle, at the preteen age of 9-12, many interactions are based on experiencing things with their peers together for the first time. Whether it be trying new foods, playing new games, or watching a new movie, there is a natural curiosity in children to absorb new experiences and discuss them with their peers. When that part of their life is so limited such as the case with food allergies, is when children feel most isolated."
+      text="When it comes to a child’s social circle, at the preteen age of 9-12, many interactions are based on experiencing things with their peers together for the first time. Whether it be trying new foods, playing new games, or watching a new movie, there is a natural curiosity in children to absorb new experiences and discuss them with their peers. When such an integral part of their lives becomes limited by their food allergies, the child is left feeling isolated and vulnerable."
     />
     <InsightParagraph
       title="Insight Five, Isolation"
       forward="Because food is a central aspect for social activity, there is a cultural stigma when one cannot participate."
-      text="In so many different cultures, and especially in America, the breaking of bread is a core part of social interactions. It’s often the norm to center social gatherings around food and in some cases second nature to offer a share of one’s food in the presence of others. Because the nature of food is a communal contribution or personal offering, it is considered rude to decline and creates a cultural stigma around that parent/child."
+      text="In so many different cultures, especially in America, the breaking of bread is a core part of social interactions. It’s often the norm to center social gatherings around food and in some cases second nature to offer a share of one’s food in the presence of others. Because the communal nature of food, when that parent or child declines these offerings, it creates a social rift and isolates that family further."
     />
     <InsightParagraph
       title="Insight Six, Isolation"
       forward="Parents feel their child is isolated when others do not consider the higher threshold of needs."
-      text="Parents of children with food allergies want their kids to be treated with the same level of attention and care as their peers. It is especially difficult for parents to hear that their child was excluded from activities in the classroom or social setting."
+      text="Parents of children with food allergies want their kids to be treated with the same level of attention and care as their peers. When their child's needs are higher than their respective peers, it becomes especially difficult for parents to hear that their child was excluded from activities in the classroom or social setting."
     />
     <InsightParagraph
       title="Insight Seven, Isolation"
       forward="The isolating nature of food allergies is the foundation of a tight knit community."
-      text="Communities such as Facebook groups or child friend groups are often formed on the basis of isolation. There is a mutual understanding in these communities that other people ‘just don’t get it like we do’ and a frustration that their needs are not cared for. The life and death nature of food allergies creates a mutual discussion point that parents often feel go under-appreciated and disregarded."
+      text="Communities such as Facebook groups or child friend groups are often formed from the mutual feeling of isolation. There is a mutual understanding in these communities that other people ‘just don’t get it like we do’ and frustration that their needs are not cared for. Parents often feel the severity of food allergies is often under-appreciated and disregarded, prompting them to create a community where these issues can be brought to the forefront."
     />
     <SegwayHero
       title="Theme Three"
@@ -235,13 +235,13 @@ const AllergiesPage = ({
     <InsightParagraph
       title="Insight Eight, Awareness"
       forward="The high variability in food allergies causes society to be jaded by the word ‘allergy’."
-      text="Because of the varying degrees of severity, and the rise in both food sensitivities and food allergies, society finds it hard to define allergies as a real problem. With the diagnostic tests that are used now, experts can’t even define severity. These limitations cause people outside the allergen community, who understand even less than the people within the community, to think of the word “allergy” as a catch-all for food issues. This, mixed with the varying degree of allergic reactions, makes the outside community view allergies as mild disruption and even an inconvenience in their lives."
+      text="Because of the varying degrees of severity, and the rise in both food sensitivities and food allergies, society finds it hard to define allergies as a real problem. With the diagnostic tests that are used now, experts have limitations in determining a conclusive diagnosis. These limitations cause people outside the allergen community, who understand even less than the people within the community, to think of the word “allergy” as a catch-all for food issues. This, mixed with the varying degree of allergic reactions, makes the outside community view allergies as a mild disruption and even an inconvenience in their lives rather than a life-threatening condition."
     />
     <InsightParagraph
       title="Insight Nine, Awareness"
       forward="Parental trust is dependent on their child’s ability to take control of their environment."
       text="Both doctors and parents agree that unknown environmental triggers are the cause of many food allergies in western culture. Studies like the Israeli Peanut Study and the Hygiene Theory reiterate these sentiments."
-      text2="We also found this same thread of truth within our own data when talking with the dyads. P2, who has a soy and fruit allergy that causes skin reactions, went to Taiwan for a summer and saw changes in his skin while there. Once he came back to the United States, his problems came back. P1 is a child who struggles with the new allergy EoE. His parents said “kids are the canaries in the coalmine,” meaning they are sirens telling us we are doing something wrong with our food creation and consumption."
+      text2="We also found this same thread of truth within our own data when talking with our dyads. Participant Two, who has a soy and fruit allergy that causes skin reactions, went to Taiwan for a summer and saw changes in his skin while there. Once they came back to the United States, their problems came back. Participant One is a child who struggles with the new allergy EoE. Their parents said “kids are the canaries in the coal mine,” meaning they are sirens telling us we are doing something wrong with our food creation and consumption."
     />
     <SegwayHero
       title="Theme Four"
@@ -253,13 +253,13 @@ const AllergiesPage = ({
     <InsightParagraph
       title="Insight Ten, Fear"
       forward="Heightened anxiety stems from the trauma experienced during a past allergic reaction."
-      text="It is a scary moment for families when their child goes through an allergic reaction. Allergic reactions could range from minor hives to difficulty breathing. These traumatic experiences leave an enduring feeling that remains with families for a long period of time. Parents can only do so much when it comes to preparing and keeping their loved ones from an allergic reaction. The loss of control and unpredictability of their child experiencing a reaction drives fear."
+      text="It is a scary moment for families when their child goes through an allergic reaction. Allergic reactions could range from minor hives to difficulty breathing. These traumatic experiences leave an enduring feeling of anxiety that remains with families for an extended period of time. Parents can only do so much when it comes to preparing and keeping their loved ones from an allergic reaction. The loss of control and unpredictability of their child experiencing a reaction drives fear."
     />
     <InsightParagraph
       title="Insight Eleven, Fear"
       forward="Parents assume the worst about their child’s condition due to limitations and ambiguities of diagnostic testing."
-      text="Once children are diagnosed with food allergies, parents tend to latch on to the idea of the food allergy being worse than it really is. These diagnostic testing methods are unreliable and lack reassurance that the treatment will do more good than harm."
-      text2="Food allergy testing is not black and white, as they are time consuming and can be falsely positive. The anxiety of these food allergies often adds an emotional toll, as some children who are tested negative for some foods, still have a reaction. So they avoid all foods in that specific category."
+      text="Once children are diagnosed with food allergies, parents tend to latch on to the idea of the food allergy is worse than it really is. These diagnostic testing methods are unreliable and lack reassurance that the treatment will do more good than harm."
+      text2="Food allergy testing is not black and white, as they are time-consuming and can be falsely positive. The anxiety of these food allergies often adds an emotional toll, as some children who are tested negative for some foods, still have a reaction. So they avoid all foods in that specific category."
     />
     <InsightParagraph
       title="Insight Twelve, Fear"
@@ -275,35 +275,35 @@ const AllergiesPage = ({
           <div className="bullet-list-row">
             <div className="item">
               <div className="bar"></div>
-              <div className="text">Better educate people on how to properly deal with a reaction while it’s taking place</div>
+              <div className="text">Better educate people on how to appropriately deal with a reaction while it’s taking place.</div>
             </div>
             <div className="item">
               <div className="bar"></div>
-              <div className="text">Make the process of determining which foods are safe to consume easier to understand</div>
+              <div className="text">Make the process of determining which foods are safe to consume easier to understand.</div>
             </div>
             <div className="item">
               <div className="bar"></div>
-              <div className="text">Design for control in an uncontrolled environment</div>
-            </div>
-          </div>
-          <div className="bullet-list-row">
-            <div className="item">
-              <div className="bar"></div>
-              <div className="text">Create a more informed diagnostic experience for children and their parents</div>
-            </div>
-            <div className="item">
-              <div className="bar"></div>
-              <div className="text">Build on support of the local community to ease the mourning process for families</div>
-            </div>
-            <div className="item">
-              <div className="bar"></div>
-              <div className="text">Alleviate the concern of making mistakes when dealing with a reaction in the moment</div>
+              <div className="text">Design for control in an uncontrolled environment.</div>
             </div>
           </div>
           <div className="bullet-list-row">
             <div className="item">
               <div className="bar"></div>
-              <div className="text">Build trust between the parent and school through established expectations</div>
+              <div className="text">Create a more informed diagnostic experience for children and their parents.</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Build on the support of the local community to ease the mourning process for families.</div>
+            </div>
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Alleviate the concern of making mistakes when dealing with a reaction in the moment.</div>
+            </div>
+          </div>
+          <div className="bullet-list-row">
+            <div className="item">
+              <div className="bar"></div>
+              <div className="text">Build trust between the parent and school through established expectations.</div>
             </div>
           </div>
         </div>
@@ -317,7 +317,7 @@ const AllergiesPage = ({
     <ProjectReflections
       projectColor={AllergiesGreen}
       title="Future Steps"
-      text="Next quarter we will be taking these insights, themes and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five concepts that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteen’s manage their food allergies."
+      text="Next quarter we will be taking these insights, themes, and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five ideas that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteens manage their food allergies."
     />
     <NextProject
       projectKey="astraia"

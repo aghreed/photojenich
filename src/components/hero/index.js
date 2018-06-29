@@ -9,7 +9,7 @@ const Hero = ({
   (<section>
     <div className="hero-container">
       <h1 className={`hero-title ${hideHero ? 'hidden' : ''}`}>
-        Hi, I’m Whitney. A humanist, designer, and researcher driven by resiliency.
+        Hi, I’m Whitney. A humanist, interaction designer, and researcher driven by resiliency.
       </h1>
       <div className={`scrolldown-container ${hideScrollDown ? 'hidden' : ''}`}>
         <span>Scroll Down</span>

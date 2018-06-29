@@ -15,7 +15,7 @@ const AboutPage = ({
     <Header location={location} />
     <section className="about-hero-section">
       <div className="about-hero">
-        <h2>I'm Whitney a humanist interaction designer and researcher driven by resiliency.</h2>
+        <h2>Hi, I’m Whitney. A humanist, interaction designer, and researcher driven by resiliency.</h2>
         <div className="line"></div>
       </div>
       <div className="article-container">
@@ -30,21 +30,24 @@ const AboutPage = ({
         <div className="article-row">
           <div className="article">
             <p className="text">
-            I’m Whitney a hybrid interaction designer and researcher driven by human reliancy. I grew up in the good town of Milwaukee Wisconsin, where I spent my days as a young whippersnapper finding my love for Dad Yacht Rock, Seinfeld and Karaoke.
+            I’m Whitney. A hybrid interaction designer and researcher driven by human resiliency. I grew up in the good town of Milwaukee Wisconsin, where I spent my days as a young whippersnapper finding my love for Dad Yacht Rock, Seinfeld, and Karaoke.
             </p>
             <p className="text">
-            It was there as well that I found my deep rooted passion for two things; creativity and compassion. On one side I was a lover of art, design and brainstorming, problem solving and making things come to life. On the other side I was found deep joy in helping others. I jumped at the chance of being a nurse for my grandma during her hip surgery and was always there to help my friends on a bad day.
+            It was there as well that I found my deep-rooted passion for two things-- creativity and compassion. On one side I was a lover of art, design, and brainstorming, problem-solving, and making ideas come to life. On the other hand, I found profound joy in helping others. I jumped at the chance of being a nurse for my grandma during her hip surgery and was always there to help my friends on a bad day.
             </p>
             <p className="text">
-            And I never saw these things going hand-in-hand. I thought even through college, that I would have to choose between design and art or being a doctor or nurse. But it was in college when I also found my dispassion for Biology and so went on to receive a degree in Graphic design and Advertising.
+            And I never saw these things going hand-in-hand. I thought even through college that I would have to choose between design and art or being a doctor or nurse. My interest in these areas of life, however, made me a credit shy of a triple major in Psychology, Graphic Design, and Advertising, and ending up with the latter two.
             </p>
           </div>
           <div className="article">
             <p className="text">
-            Quickly after college I knew my job choice wasn’t fulfilling me. The design culture in my city in the Midwest felt like it was only brushing the surface and I wanted to do more. So I started researching, and found out more about UX design. I taught myself foundational instruction in UX and frontend development and landed a job at a large tech startup in Omaha, Nebraska as their sole UX/UI and frontend developer.
+            My motivation for a career that made an impact and that facilitated my creative and humanistic sides, led me to User Experience design, where I self-taught myself the foundations in UX/UI and frontend development, earning me a spot at a job at a large tech startup in Omaha, Nebraska as their sole UX/UI and frontend developer.
             </p>
             <p className="text">
-            There I was stretched in my confidence and voice, but knew I needed to grow more and learn more to be in a place that I could really help people through design. I wasn’t able to hone in on really mastering one skill because I learnign and working between three different jobs. I ended up applying for this program, leaving the Startup and taking a job for the summer as a Web designer and content creator at a small advertising agency in town.
+            My drive for mastery in my skill and pushed me to look further, and I found my way to the University of Washington’s Master of Human-Computer Interaction and Design program.
+            </p>
+            <p className="text">
+            It’s in this program that I’ve learned to design for the person, to create with meaning and responsibility, and to solve for problems with validated and informed answers.
             </p>
           </div>
         </div>
