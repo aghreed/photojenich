@@ -191,7 +191,7 @@ const TheWaitPage = ({
     <SegwayBulletList
       title="Iterations"
       itemOne="Care now gives simple, non-sensitive timeline updates that are already part of a hospital’s computer input process."
-      itemTwo="A "Frequently Asked Questions" section was added to help first-time waiters navigate their experience."
+      itemTwo={`A "Frequently Asked Questions" section was added to help first-time waiters navigate their experience.`}
       itemThree="We added an extra layer of authentication and of a user to the app through the agreement of the patient for more security."
       projectBackgroundColor={TheWaitBackgroundColor}
       projectColor={TheWaitColor}
@@ -267,7 +267,7 @@ const TheWaitPage = ({
     </section>
     <SingleTitledParagraph
       title="Alleviating Stress"
-      text="To ease the anxiety and worry of waiters near and far, we offer a "Frequently Asked Questions" section, to read more about what to expect. A “Ways to Relax” section is also included with relaxation tips like meditation, for those who need a moment of peace. We also included an “Amenities” section for those at the hospital who want to learn more about what’s available for them to do while they wait."
+      text={`To ease the anxiety and worry of waiters near and far, we offer a "Frequently Asked Questions" section, to read more about what to expect. A “Ways to Relax” section is also included with relaxation tips like meditation, for those who need a moment of peace. We also included an “Amenities” section for those at the hospital who want to learn more about what’s available for them to do while they wait.`}
     />
     <section className="staying-in-the-loop-section">
       <div className="staying-in-the-loop-container">
