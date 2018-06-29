@@ -26,7 +26,7 @@ const ProjectOverview = ({
       </ParallaxLayer>
       <ParallaxLayer offset={offset} speed={0.5}>
         <div
-          className={`title ${title === 'Allergies' ? 'allergies-title' : ''}`}
+          className="title"
           onClick={ () => navigateTo(`/${title.replace(' ', '_').toLowerCase()}`)}
         >
             {title}

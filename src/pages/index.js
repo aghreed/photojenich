@@ -1,4 +1,5 @@
 import React from 'react';
+import { findDOMNode } from 'react-dom';
 import Helmet from 'react-helmet';
 import { Parallax, ParallaxLayer } from 'react-spring';
 
@@ -22,16 +23,65 @@ import AllergiesImage from '../images/allergies/allergies.png';
 // />
 
 class BlogIndex extends React.Component {
+  constructor(props) {
+    super(props);
+    this.parallax;
+    this.state = {
+      width: 0,
+      height: 0,
+      hideHeader: true,
+      hideHero: true,
+      hideScrollDown: true
+    };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
+    this.handlePageLoad = this.handlePageLoad.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    this.handlePageLoad();
+    window.addEventListener('resize', this.updateWindowDimensions);
+    findDOMNode(this.parallax).addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+    findDOMNode(this.parallax).removeEventListener('scroll', this.handleScroll);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
+  handleScroll() {
+    if (this.state.hideHeader && this.parallax.current >= window.innerHeight) {
+      this.setState({ hideHeader: false });
+    } else if (!this.state.hideHeader && this.parallax.current < window.innerHeight) {
+      this.setState({ hideHeader: true });
+    }
+  }
+
+  handlePageLoad() {
+    setTimeout(() => {
+      this.setState({ hideHero: false });
+    }, 250);
+
+    setTimeout(() => {
+      this.setState({ hideScrollDown: false });
+    }, 750);
+  }
+
   render() {
     return (
       <div className="tk-nimbus-sans">
         <Helmet title="Photojenich">
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
-        <Parallax pages={4}>
+        <Header location={this.props.location} hideHeader={this.state.hideHeader} />
+        <Parallax id="parllax" pages={4} ref={node => this.parallax = node}>
           <ParallaxLayer offset={0}>
-            <Hero />
-            <Header location={this.props.location} />
+            <Hero hideHero={this.state.hideHero} hideScrollDown={!this.state.hideHeader || this.state.hideScrollDown} />
           </ParallaxLayer>
           <ProjectOverview
             title="Astraia"

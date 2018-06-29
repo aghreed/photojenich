@@ -18,8 +18,9 @@
     }
 
     .title {
-      // position: relative;
-      // left: 2.5vw;
+      text-align: left;
+      right: auto;
+      left: 38vw;
     }
 
     .line {
@@ -55,15 +56,12 @@
 
   .title {
     position: absolute;
-    left: 38vw;
+    right: 38vw;
     font-size: 100px;
     z-index: 1;
     padding-top: 100px;
     font-family: "Tara";
-
-    &.allergies-title {
-      left: 32vw;
-    }
+    text-align: right;
 
     &:hover {
       cursor: pointer;
@@ -73,7 +71,7 @@
   .line {
     position: absolute;
     top: 45vh;
-    right: 41vw;
+    right: 40vw;
     width: 1px;
     height: 75px;
     background: #000;

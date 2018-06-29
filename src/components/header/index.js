@@ -4,9 +4,10 @@ import Link from "gatsby-link";
 import './_header.scss';
 
 const Header = ({
-  location
+  location,
+  hideHeader
 }) =>
-  (<header className="header">
+  (<header className={`header ${hideHeader ? 'hidden' : ''} ${location.pathname === '/' ? 'home' : ''}`}>
     <div className="header-content">
       <div>
       {
