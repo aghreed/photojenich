@@ -32,7 +32,7 @@
     .text {
       text-align: right;
       right: auto;
-      left: 21vw;
+      left: 16vw;
     }
   }
 
@@ -59,7 +59,7 @@
     right: 38vw;
     font-size: 100px;
     z-index: 1;
-    padding-top: 100px;
+    top: 25vh;
     font-family: "Tara";
     text-align: right;
 
@@ -81,10 +81,10 @@
   .text {
     position: absolute;
     font-size: 18px;
-    width: 180px;
+    width: 250px;
     max-height: 300px;
     top: 50vh;
-    right: 21vw;
+    right: 16vw;
     line-height: 29px;
     font-weight: 300;
   }

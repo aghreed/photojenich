@@ -310,8 +310,8 @@ const AllergiesPage = ({
       </div>
     </section>
     <UISpecs
+      projectKey="allergies"
       docName="allergies_research_report"
-      projectColor={`${AllergiesGreen}`}
       text="View Research Report Here"
     />
     <ProjectReflections

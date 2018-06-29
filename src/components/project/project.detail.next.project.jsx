@@ -8,9 +8,7 @@ const NextProject = ({
 }) => (
   <div className="next-project-container">
     <div className="next-project"
-      style={{ color: `#0D1017`, border: `1px solid #0D1017`}}
       onClick={() => {
-        console.log("hey I got clicked!", projectKey);
         navigateTo(`/${projectKey}`);
       }}
     >

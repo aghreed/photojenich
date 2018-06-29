@@ -11,6 +11,8 @@
         max-width: 750px;
         font-size: 36px;
         line-height: 45px;
+        font-family: "Tara";
+        font-weight: 500;
       }
 
       .line {
@@ -39,6 +41,11 @@
           .text {
             font-size: 14px;
             line-height: 19px;
+
+            &.bold {
+              font-weight: bold;
+              max-width: 380px;
+            }
           }
         }
       }

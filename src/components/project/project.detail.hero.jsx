@@ -13,7 +13,12 @@ const ProjectDetailHero = ({
     <div className="project-container">
       <div className="project-image" style={{backgroundImage: `url(${image})`}}></div>
       <div className="project-title">{title}</div>
-      <div className="project-description" style={{ background: `${projectColor}`}}><span>Duration: {duration}</span> <span style={{ marginLeft: '0.5em'}}>Role: {role}</span></div>
+      <div className="project-description" style={{ background: `${projectColor}`}}>
+        <span style={{ fontWeight: 'bold' }}>Duration: </span>
+        <span>{duration}</span>
+        <span style={{ marginLeft: '0.5em', fontWeight: 'bold' }}>Role: </span>
+        <span>{role}</span>
+      </div>
       <div className="scrolldown">
         <div className="scrolldown-text">Scroll Down</div>
         <div className="scrolldown-line"></div>

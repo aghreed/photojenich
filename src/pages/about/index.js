@@ -21,7 +21,7 @@ const AboutPage = ({
       <div className="article-container">
         <div className="article-row">
           <div className="article">
-            <p className="text">
+            <p className="text bold">
             I’m inspired by the human experience. In our ability to achieve in critical moments as well as fail and get back up again. I’m motivated by our unyielding faith in ourselves and a better tomorrow. And that is what I strive to responsibly design a future for.
             </p>
           </div>

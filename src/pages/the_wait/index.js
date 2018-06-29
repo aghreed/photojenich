@@ -281,8 +281,8 @@ const TheWaitPage = ({
       text="Other features, like a two-step authentification process through the patient themselves ensures privacy and security for the application and the patient."
     />
     <UISpecs
+      projectKey="the_wait"
       docName="the_wait_uispec"
-      projectColor={`${TheWaitColor}`}
     />
     <ProjectReflections
       projectColor={TheWaitColor}

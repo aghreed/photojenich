@@ -3,13 +3,12 @@ import React from "react";
 import "./_project.detail.ui.specs.scss";
 
 const UISpecs = ({
-  projectColor,
+  projectKey,
   docName,
   text
 }) => (
   <div className="ui-specs-container">
-    <div className="ui-specs"
-      style={{ color: `${projectColor}`, border: `1px solid ${projectColor}`}}
+    <div className={`ui-specs ${projectKey}`}
       onClick={ () => window.open(`/docs/${docName}.pdf`, "_blank")}
     >
       <div className="ui-specs-text">
