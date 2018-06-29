@@ -15,10 +15,11 @@ import SystemMapImage from '../../images/astraia/system_map.png';
 import AstraiaIdeationImage from '../../images/astraia/astraia_ideation.png';
 import AstraiaPaperPrototypingImage from '../../images/astraia/astraia_paperprototyping.png';
 import AstraiaWireframingImage from '../../images/astraia/astraia_wireframing2.jpg';
-import FlowOneImage from '../../images/astraia/flow_one_desktop.png';
-import FlowTwoImage from '../../images/astraia/flow_two_desktop.png';
-import FlowThreeImage from '../../images/astraia/flow_three_desktop.png';
-import FlowFourImage from '../../images/astraia/flow_four_desktop.png';
+
+import FlowOneVideo from '../../videos/astraia_flowone.mp4';
+import FlowTwoVideo from '../../videos/astraia_flowtwo.mp4';
+import FlowThreeVideo from '../../videos/astraia_flowthree.mp4';
+import FlowFourVideo from '../../videos/astraia_flowfour.mp4';
 
 const AstraiaPurple = '#8338EC';
 const AstraiaBackgroundColor = '#EDEDED';
@@ -186,7 +187,7 @@ const AstraiaPage = ({
       </section>
       <section className="flow-section one">
         <div className="flow-container">
-          <div className="flow-image" style={{backgroundImage: `url(${FlowOneImage})`}}></div>
+          <video className="flow-video" src={FlowOneVideo} autoPlay loop type="video/mp4"></video>
           <div className="flow-description">
             <h4 className="flow-title">Flow One: Adding a Case</h4>
             <div className="flow-text">
@@ -210,7 +211,7 @@ const AstraiaPage = ({
       </section>
       <section className="flow-section two">
         <div className="flow-container">
-          <div className="flow-image" style={{backgroundImage: `url(${FlowTwoImage})`}}></div>
+          <video className="flow-video" src={FlowTwoVideo} autoPlay loop type="video/mp4"></video>
           <div className="flow-description">
             <h4 className="flow-title">Flow Two: Adding a Task</h4>
             <div className="flow-text">
@@ -231,7 +232,7 @@ const AstraiaPage = ({
       </section>
       <section className="flow-section three">
         <div className="flow-container">
-          <div className="flow-image" style={{backgroundImage: `url(${FlowThreeImage})`}}></div>
+          <video className="flow-video" src={FlowThreeVideo} autoPlay loop type="video/mp4"></video>
           <div className="flow-description">
             <h4 className="flow-title">Flow Three: Adding a Reference to a Case</h4>
             <div className="flow-text">
@@ -252,7 +253,7 @@ const AstraiaPage = ({
       </section>
       <section className="flow-section four">
         <div className="flow-container">
-          <div className="flow-image" style={{backgroundImage: `url(${FlowFourImage})`}}></div>
+          <video className="flow-video" src={FlowFourVideo} autoPlay loop type="video/mp4"></video>
           <div className="flow-description">
             <h4 className="flow-title">Flow Four: Adding an Event to the Calendar</h4>
             <div className="flow-text">

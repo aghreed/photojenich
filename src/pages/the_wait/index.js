@@ -25,10 +25,11 @@ import ThreeWidePhotos from "../../images/the_wait/wait_three_wide.png";
 import TheWaitWelcomePacket from "../../images/the_wait/wait_welcomepacket.png";
 import TheWaitHomepod from "../../images/the_wait/wait_homepod.png";
 import TheWaitInformPic from "../../images/the_wait/wait_Inform_pic.png";
-import TheWaitPopups from "../../images/the_wait/wait_popups.png";
-import TheWaitInform from "../../images/the_wait/wait_inform.png";
-import TheWaitEase from "../../images/the_wait/wait_ease.png";
-import TheWaitDoubleAuth from "../../images/the_wait/wait_doubleauth.png";
+
+import TheWaitGifStayingInTheLoop from "../../gifs/wait_stayingintheloop.gif";
+import TheWaitGifDoubleAuth from "../../gifs/wait_ensuringprivacy.gif";
+import TheWaitGifEase from "../../gifs/wait_alleviatingstress.gif";
+import TheWaitGifInform from "../../gifs/wait_providingkeyinfo.gif";
 
 const TheWaitColor = '#43A0FF';
 const TheWaitBackgroundColor = '#F2F8FF';
@@ -245,8 +246,8 @@ const TheWaitPage = ({
       </div>
     </section>
     <section className="staying-in-the-loop-section">
-      <div className="staying-in-the-loop-container" style={{ marginTop: '8em'}}>
-        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitPopups})`}}></div>
+      <div className="staying-in-the-loop-container">
+        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitGifStayingInTheLoop})`}}></div>
       </div>
     </section>
     <SingleTitledParagraph
@@ -255,7 +256,7 @@ const TheWaitPage = ({
     />
     <section className="staying-in-the-loop-section">
       <div className="staying-in-the-loop-container">
-        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitInform})`}}></div>
+        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitGifInform})`}}></div>
       </div>
     </section>
     <SingleTitledParagraph
@@ -263,8 +264,8 @@ const TheWaitPage = ({
       text="Care will help first time waiters, as well as those who have been in a similar situation before to feel more informed by being able to read up on the surgery itself, as well as the visit details right in the palm of their hand."
     />
     <section className="staying-in-the-loop-section">
-      <div className="staying-in-the-loop-container" style={{ marginTop: '8em'}}>
-        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitEase})`}}></div>
+      <div className="staying-in-the-loop-container">
+        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitGifEase})`}}></div>
       </div>
     </section>
     <SingleTitledParagraph
@@ -273,7 +274,7 @@ const TheWaitPage = ({
     />
     <section className="staying-in-the-loop-section">
       <div className="staying-in-the-loop-container">
-        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitDoubleAuth})`}}></div>
+        <div className="staying-in-the-loop-image" style={{ backgroundImage: `url(${TheWaitGifDoubleAuth})`}}></div>
       </div>
     </section>
     <SingleTitledParagraph
