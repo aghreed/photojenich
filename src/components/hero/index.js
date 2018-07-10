@@ -6,7 +6,7 @@ const Hero = ({
   hideHero,
   hideScrollDown
 }) =>
-  (<section>
+  (<section style={{ height: '100vh' }}>
     <div className="hero-container">
       <h1 className={`hero-title ${hideHero ? 'hidden' : ''}`}>
         Hi, I’m Whitney. A humanist, interaction designer, and researcher driven by resiliency.

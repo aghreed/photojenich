@@ -14,14 +14,6 @@ import OlympicsImage from '../images/olympics.png';
 import ConnectImage from '../images/connect.png';
 import AllergiesImage from '../images/allergies/allergies.png';
 
-// <ProjectOverview
-//   goofy
-//   title="Connect"
-//   vertical="Prototyping Experiment"
-//   text="Taking phones out of hands practicing the act of talking and listening."
-//   image={ConnectImage}
-// />
-
 class BlogIndex extends React.Component {
   constructor(props) {
     super(props);
@@ -79,7 +71,7 @@ class BlogIndex extends React.Component {
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
         <Header location={this.props.location} hideHeader={this.state.hideHeader} />
-        <Parallax id="parllax" pages={4} ref={node => this.parallax = node}>
+        <Parallax id="parllax" pages={5} ref={node => this.parallax = node}>
           <ParallaxLayer offset={0}>
             <Hero hideHero={this.state.hideHero} hideScrollDown={!this.state.hideHeader || this.state.hideScrollDown} />
           </ParallaxLayer>
@@ -104,6 +96,14 @@ class BlogIndex extends React.Component {
             text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
             image={AllergiesImage}
             offset={1.2}
+          />
+          <ProjectOverview
+             goofy
+             title="Connect"
+             vertical="Prototyping Experiment"
+             text="Taking phones out of hands practicing the act of talking and listening."
+             image={ConnectImage}
+             offset={1.2}
           />
           <Footer />
         </Parallax>

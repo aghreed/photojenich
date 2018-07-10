@@ -320,7 +320,7 @@ const AllergiesPage = ({
       text="Next quarter we will be taking these insights, themes, and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five ideas that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteens manage their food allergies."
     />
     <NextProject
-      projectKey="astraia"
+      projectKey="connect"
     />
   </div>
 );

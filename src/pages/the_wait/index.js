@@ -10,6 +10,7 @@ import NextProject from "../../components/project/project.detail.next.project";
 import ParagraphImage from "../../components/project/project.detail.paragraph.image";
 import BulletListImage from "../../components/project/project.detail.bullet.list.image";
 import ProjectReflections from "../../components/project/project.detail.reflections";
+import VideoSection from "../../components/project/project.detail.video";
 
 import "./_the_wait.scss";
 
@@ -50,11 +51,7 @@ const TheWaitPage = ({
       text="Waiting for a loved one during surgery can be mentally draining and can take a toll not just on the patient, but their support system as well. From external environmental stressors like taking off of work, dealing with family, and aftercare––to the stress of the surgical event itself, the community surrounding the patient is often left in a conflicting state of boredom and anxiety during a procedure."
       text2="We understood early on that we wanted our design to be a provocation of what we see the future of healthcare to be. By creating a three-fold, physical and mobile experience, we attempted to touch loved ones present at the hospital for the surgery as well as those anxiously waiting miles away."
     />
-    <section className="the-wait-video-section">
-      <div className="the-wait-video-container">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QFhvnxvzN40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </section>
+    <VideoSection videoSrc="https://www.youtube.com/embed/QFhvnxvzN40" />
     <SegwayQuote
       quote="We hoped to inform, ease, and streamline the wait experience for the support system of the patient to provide reassurance in a time of uncertainty."
       projectBackgroundColor={TheWaitBackgroundColor}
