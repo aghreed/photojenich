@@ -206,7 +206,7 @@ const TheWaitPage = ({
           “It would be great to get all of this information and the parking spot, it would make my time getting to the hospital that much easier.” – Service Walkthrough Participant 2
           </p>
           <p className="streamline-text">
-          With other papers customarily given sent to patients before surgery, our system will welcome them to the hospital, explain that they have their own parking spot and give them details on how to download the mobile app Care and invite family and friends.
+          With other papers customarily sent to patients before surgery, our system will welcome them to the hospital, explain that they have their own parking spot and give them details on how to download the mobile app Care and invite family and friends.
           </p>
         </div>
       </div>
@@ -220,7 +220,7 @@ const TheWaitPage = ({
           “Waiting rooms are a pretty sensitive area, even when people are getting loud, facial expressions get reactionary. Noise is a misfit in the situation.” – Semi-Structured Interview 1
           </p>
           <p className="ease-text">
-          To create a private, physical waiting space for family and loved ones during the surgery experience, each family is given a designated Home Pod to relax and call their own during the duration of the procedure.
+          To create a private, physical waiting space for family and loved ones during the surgery experience, each family is given a designated Home Pod to relax and call their own for the duration of the procedure.
           </p>
         </div>
       </div>
@@ -255,7 +255,7 @@ const TheWaitPage = ({
     </section>
     <SingleTitledParagraph
       title="Providing Key Information"
-      text="Care will help first-time waiters, as well as those who have been in a similar situation before to feel more informed by being able to read up on the surgery itself, as well as the visit details right in the palm of their hand."
+      text="Care will help first-time waiters, as well as those who have been in a similar situation before, to feel more informed by being able to read up on the surgery itself as well as the visit details right in the palm of their hand."
     />
     <section className="staying-in-the-loop-section">
       <div className="staying-in-the-loop-container">
@@ -282,7 +282,7 @@ const TheWaitPage = ({
     <ProjectReflections
       projectColor={TheWaitColor}
       title="What I learned"
-      text="Through creating this experience from start to finish, I realized how many different touchpoints and stakeholders go into creating a seemingly simple experience. Learning to take each one into account helped us create a more holistic, desirable and realized experience for not only the support system but others indirectly affected as well."
+      text="Through creating this experience from start to finish, I realized how many different touchpoints and stakeholders go into creating a seemingly simple experience. Learning to take each one into account helped us create a more holistic, desirable, and realized experience for not only the support system, but others indirectly affected as well."
       text2="One of the major issues we needed to combat during the design of our service was how we relay information and in what detail. Surgeries are stressful for the support system for a reason, and we wanted to make sure that the information we were giving wouldn’t add to their anxieties. Knowing this and the seriousness of what could happen if something was relayed incorrectly through our app during such a high stakes situation, we decided to focus in on a less severe surgery for our scenario, specifically ACL tears."
       secondTitle="Next Steps"
       secondText="Stress and anxiety do not conclude at the end of surgery, in fact, it often gets more stressful as the support system frequently takes on the role of the caregiver. I would foresee extending this app to touch the “post-surgery” section of the timeline as well. I would personally also be interested in learning more about how to relay sensitive information effectively, to make this application more fitting for a full breadth of surgeries."

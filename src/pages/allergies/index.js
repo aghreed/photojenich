@@ -174,7 +174,7 @@ const AllergiesPage = ({
     <ParagraphImage
       image={AllergiesSynthesis}
       title="Synthesizing"
-      text="We externalized all of our hard data from our interviews onto sticky notes, then placed them into different categories. Once in categories, we started looking more in-depth, finding four larger themes; trust awareness, isolation, and fear, in which our final 12 insights encapsulated and stemmed from."
+      text="We externalized all of our hard data from our interviews onto sticky notes, then placed them into different categories. Once in categories, we started looking more in-depth, finding four larger themes; trust, awareness, isolation, and fear, in which our final 12 insights encapsulated and stemmed from."
     />
     <SegwayHero
       title="Theme One"
@@ -317,7 +317,7 @@ const AllergiesPage = ({
     <ProjectReflections
       projectColor={AllergiesGreen}
       title="Future Steps"
-      text="Next quarter we will be taking these insights, themes, and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five ideas that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent, creating a final solution to help preteens manage their food allergies."
+      text="Next quarter we will be taking these insights, themes, and opportunities and start working within different frameworks to come up with concepts. We will prototype four to five ideas that we feel encapsulate the essence of what we are trying to accomplish with our project to prototype. Our goal is to then go back to our participants and interview them about the viability and desire for each of the ideas. The rest of our time will be spent creating a final solution to help preteens manage their food allergies."
     />
     <NextProject
       projectKey="connect"
