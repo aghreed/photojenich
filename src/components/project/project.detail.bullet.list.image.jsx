@@ -9,7 +9,12 @@ const BulletListImage = ({
   text,
   text2,
   text3,
-  text4
+  text4,
+  text5,
+  text6,
+  text7,
+  text8,
+
 }) => (
   <section className="bullet-list-image-section">
     <div className={`bullet-list-image-container ${goofy ? 'goofy' : ''}`}>
@@ -36,6 +41,30 @@ const BulletListImage = ({
             text4 &&
             <p className="text">
               {text4}
+            </p>
+          }
+          {
+            text5 &&
+            <p className="text">
+              {text5}
+            </p>
+          }
+          {
+            text6 &&
+            <p className="text">
+              {text6}
+            </p>
+          }
+          {
+            text7 &&
+            <p className="text">
+              {text7}
+            </p>
+          }
+          {
+            text8 &&
+            <p className="text">
+              {text8}
             </p>
           }
         </div>

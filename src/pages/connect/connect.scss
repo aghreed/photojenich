@@ -1,0 +1,395 @@
+$connect-pink: #FC589E;
+
+.connect-container {
+
+  .connect-video-section {
+    .connect-video-container {
+      margin: 4em 8em;
+      height: 593px;
+    }
+  }
+
+//   .observations-section {
+//     height: auto;
+//
+//     .observations-container {
+//       margin: 4em 8em;
+//
+//       .article-container {
+//         margin: 0 auto;
+//         max-width: 686px;
+//
+//         h4 {
+//           font-size: 28px;
+//         }
+//
+//         .text {
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//     }
+//   }
+//
+//   .insights-section {
+//     height: 80vh;
+//
+//     .insights-container {
+//       position: relative;
+//       height: 500px;
+//
+//       .insights-description {
+//         position: relative;
+//         left: 50vw;
+//         margin: 4em 0 4em 8em;
+//
+//         .insights-title {
+//           padding-top: 1em;
+//           font-size: 28px;
+//         }
+//
+//         .insights-bullet-list {
+//           margin-top: 1em;
+//           max-width: 31vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//
+//         .text {
+//           margin-top: 1em;
+//           max-width: 31vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .insights-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         left: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: left;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .insights-two-section {
+//     height: 85vh;
+//
+//     .insights-two-container {
+//       position: relative;
+//       height: 500px;
+//
+//       .insights-two-description {
+//         position: relative;
+//         margin: 4em 0 4em 8em;
+//
+//         .insights-two-bullet-list {
+//           padding-top: 4em;
+//           max-width: 331px;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .insights-two-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         right: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: right;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .observations-insights-container {
+//
+//     .observations-insights-title {
+//       position: relative;
+//       top: 1em;
+//       text-align: center;
+//     }
+//
+//     .bullet-list-container {
+//       display: flex;
+//       max-width: 960px;
+//       margin: 0 auto;
+//       justify-content: center;
+//
+//       .item {
+//         max-width: 226px;
+//         margin: 1em 2em;
+//
+//         .bar {
+//           background: $connect-pink;
+//           width: 50px;
+//           margin: 0.5em auto;
+//           height: 5px;
+//         }
+//
+//         .text {
+//           font-size: 18px;
+//           line-height: 29px;
+//           text-align: center;
+//         }
+//       }
+//     }
+//   }
+//
+//   .secondary-research-section {
+//     height: auto;
+//
+//     .secondary-research-container {
+//       margin: 4em 8em;
+//
+//       .article-container {
+//         margin: 0 auto;
+//         max-width: 686px;
+//
+//         h4 {
+//           font-size: 28px;
+//         }
+//
+//         .text {
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//     }
+//   }
+//
+//   .timeline-container {
+//     margin: 4em 8em;
+//
+//     .timeline-image {
+//       height: 583px;
+//       background-repeat: no-repeat;
+//       background-position: center;
+//       background-size: contain;
+//     }
+//   }
+//
+//   .primary-research-section {
+//     height: auto;
+//
+//     .primary-research-container {
+//       position: relative;
+//       margin: 4em 0;
+//       height: 500px;
+//
+//       .primary-research-description {
+//         position: relative;
+//         margin: 4em 0 4em 8em;
+//
+//         .primary-research-title {
+//           padding-top: 2.5em;
+//           font-size: 28px;
+//         }
+//
+//         .primary-research-text {
+//           margin-top: 1em;
+//           max-width: 25vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .primary-research-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         right: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: right;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .ideation-section {
+//     height: auto;
+//
+//     .ideation-container {
+//       position: relative;
+//       margin: 4em 0;
+//       height: 500px;
+//
+//       .ideation-description {
+//         position: relative;
+//         margin: 4em 0 4em 8em;
+//
+//         .ideation-title {
+//           padding-top: 2.5em;
+//           font-size: 28px;
+//         }
+//
+//         .ideation-text {
+//           margin-top: 1em;
+//           max-width: 25vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .ideation-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         right: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: right;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .journey-map-section {
+//     height: auto;
+//
+//     .journey-map-container {
+//       margin: 4em;
+//
+//       .journey-map-image {
+//         height: 513px;
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         background-position: center;
+//       }
+//     }
+//   }
+//
+//   .three-wide-photos-section {
+//     height: auto;
+//
+//     .three-wide-photos-container {
+//       margin: 4em;
+//
+//       .three-wide-photos-image {
+//         max-width: 1102px;
+//         height: 345px;
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         background-position: center;
+//         margin: 0 auto;
+//       }
+//
+//       .three-wide-photos-description {
+//         display: flex;
+//         justify-content: space-around;
+//         max-width: 1102px;
+//         margin: 0 auto;
+//
+//         .item {
+//           text-align: left;
+//           width: 100%;
+//           margin: 0 1em;
+//
+//           span {
+//             font-size: 14px;
+//             color: #9B9B9B;
+//           }
+//         }
+//       }
+//     }
+//   }
+//
+//   .streamline-section, .inform-section {
+//     height: 80vh;
+//
+//     .streamline-container, .inform-container {
+//       position: relative;
+//       height: 500px;
+//
+//       .streamline-description, .inform-description {
+//         position: relative;
+//         left: 50vw;
+//         margin: 4em 0 4em 8em;
+//
+//         .streamline-title, .inform-title {
+//           padding-top: 1em;
+//           font-size: 28px;
+//         }
+//
+//         .streamline-text, .inform-text {
+//           margin-top: 1em;
+//           max-width: 31vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .streamline-image, .inform-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         left: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: left;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .ease-section {
+//     height: auto;
+//
+//     .ease-container {
+//       position: relative;
+//       margin: 4em 0;
+//       height: 500px;
+//
+//       .ease-description {
+//         position: relative;
+//         margin: 4em 0 4em 8em;
+//
+//         .ease-title {
+//           padding-top: 2.5em;
+//           font-size: 28px;
+//         }
+//
+//         .ease-text {
+//           margin-top: 1em;
+//           max-width: 25vw;
+//           font-size: 18px;
+//           line-height: 29px;
+//         }
+//       }
+//
+//       .ease-image {
+//         position: absolute;
+//         top: 0;
+//         bottom: 0;
+//         right: 0;
+//         width: 55vw;
+//         background-repeat: no-repeat;
+//         background-position: right;
+//         background-size: cover;
+//       }
+//     }
+//   }
+//
+//   .staying-in-the-loop-section {
+//     height: auto;
+//
+//     .staying-in-the-loop-container {
+//       margin: -2em auto -4em;
+//
+//       .staying-in-the-loop-image {
+//         margin: 0 auto;
+//         height: 663px;
+//         background-size: contain;
+//         background-position: center;
+//         background-repeat: no-repeat;
+//       }
+//     }
+//   }
+}
