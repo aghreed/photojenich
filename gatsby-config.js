@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Photojenich",
+    title: "Whitney Jenich",
     designer: "Whitney Jenich",
     author: "aghreed",
   },
@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-121907871-1`,
       },
     },
     `gatsby-plugin-offline`,

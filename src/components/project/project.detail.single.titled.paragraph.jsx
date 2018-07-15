@@ -17,7 +17,7 @@ const SingleTitledParagraph = ({
         {
           text2 &&
           <p className="text">
-            {text}
+            {text2}
           </p>
         }
       </div>
