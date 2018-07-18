@@ -7,6 +7,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Hero from '../components/hero';
 import ProjectOverview from '../components/project/project.overview';
+import MobileModal from '../components/splash/mobile.modal';
 
 import AstraiaImage from '../images/astraia/astraia.png';
 import TheWaitImage from '../images/the_wait/the_wait.png';
@@ -23,7 +24,8 @@ class BlogIndex extends React.Component {
       height: 0,
       hideHeader: true,
       hideHero: true,
-      hideScrollDown: true
+      hideScrollDown: true,
+      showSplash: false
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
@@ -43,7 +45,7 @@ class BlogIndex extends React.Component {
   }
 
   updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    this.setState({ width: window.innerWidth, height: window.innerHeight, showSplash: window.innerWidth < 1200 });
   }
 
   handleScroll() {
@@ -70,43 +72,49 @@ class BlogIndex extends React.Component {
         <Helmet title="Whitney Jenich">
           <link rel="stylesheet" href="https://use.typekit.net/jlq6hrz.css" />
         </Helmet>
-        <Header location={this.props.location} hideHeader={this.state.hideHeader} />
-        <Parallax id="parllax" pages={5} ref={node => this.parallax = node}>
-          <ParallaxLayer offset={0}>
-            <Hero hideHero={this.state.hideHero} hideScrollDown={!this.state.hideHeader || this.state.hideScrollDown} />
-          </ParallaxLayer>
-          <ProjectOverview
-            title="Astraia"
-            vertical="Research & Ideation"
-            text="Project managment application for the court, streamlining processes and communication."
-            image={AstraiaImage}
-            offset={1.2}
-          />
-          <ProjectOverview
-            goofy
-            title="The Wait"
-            vertical="Experience Design"
-            text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
-            image={TheWaitImage}
-            offset={1.2}
-          />
-          <ProjectOverview
-            title="Allergies"
-            vertical="Capstone Project"
-            text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
-            image={AllergiesImage}
-            offset={1.2}
-          />
-          <ProjectOverview
-             goofy
-             title="Connect"
-             vertical="Prototyping Experiment"
-             text="Taking phones out of hands practicing the act of talking and listening."
-             image={ConnectImage}
-             offset={1.2}
-          />
-          <Footer />
-        </Parallax>
+        {
+          this.state.showSplash ?
+          <MobileModal />
+          :
+          [<Header key="header" location={this.props.location} hideHeader={this.state.hideHeader} />,
+          <Parallax id="parallax" key="parallax" pages={5} ref={node => this.parallax = node}>
+            <ParallaxLayer offset={0}>
+              <Hero hideHero={this.state.hideHero} hideScrollDown={!this.state.hideHeader || this.state.hideScrollDown} />
+            </ParallaxLayer>
+            <ProjectOverview
+              title="Astraia"
+              vertical="Research & Ideation"
+              text="Project managment application for the court, streamlining processes and communication."
+              image={AstraiaImage}
+              offset={1.2}
+            />
+            <ProjectOverview
+              goofy
+              title="The Wait"
+              vertical="Experience Design"
+              text="Redesigning the wait experience for patients and loved ones during a surgery or procedure."
+              image={TheWaitImage}
+              offset={1.2}
+            />
+            <ProjectOverview
+              title="Allergies"
+              vertical="Capstone Project"
+              text="Capstone project mentored by Artefact on helping preteens manage their food allergies."
+              image={AllergiesImage}
+              offset={1.2}
+            />
+            <ProjectOverview
+               goofy
+               title="Connect"
+               vertical="Prototyping Experiment"
+               text="Taking phones out of hands practicing the act of talking and listening."
+               image={ConnectImage}
+               offset={1.2}
+            />
+            <Footer />
+          </Parallax>]
+        }
+
       </div>
     )
   }
